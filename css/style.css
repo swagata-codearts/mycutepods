@@ -1,6 +1,8 @@
 /******** Google Fonts ********/
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 /******** Color Schemes ********/
 
@@ -8,17 +10,20 @@
 
   
   /* CSS HEX */
-  --c-primary: #ff9f1cff;
-  --c-secondary: #2ec4b6ff;
-  --c-accent: #08211fff;
-  --c-primary-alt: #ffbf69ff;
-  --c-secondary-alt: #cbf3f0ff;
-  
+  --c-primary: #efcfa0;
+  --c-secondary: #79491e;
+  --c-tertiary: #f6f6f6;
   --c-white-900: #ffffffff;
-  --c-white-800: #f7fffe;
   --c-black-900: #090b0bff;
+
+  --c-text-primary: #383838;
+  --c-text-secondary: #3d3d3d;
+  --c-text-tertiary: #8e8e8e;
+  --c-text-tertiary-alt: #9d9d9d;
   
-  --ff-primary: 'Montserrat', sans-serif;
+  --ff-primary: 'Baloo 2', cursive;
+  --ff-secondary: 'Montserrat Alternates', sans-serif;
+  --ff-tertiary: 'Bangers', cursive;
 }
 
 
@@ -55,10 +60,11 @@ a:hover {
 p {
   margin: 0;
   padding: 0;
-  font-size: 14px;
-  color: var(--c-black-text);
-  line-height: 18px;
-  font-weight: 400;
+  font-size: 15px;
+  color: var(--c-text-secondary);
+  font-family: var(--ff-secondary);
+  line-height: 31px;
+  font-weight: 500;
 }
 
 body {
@@ -75,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 /******** Utility Classes ********/
 
 .container {
-  max-width: 1440px;
+  max-width: 1410px;
 }
 /* .on-hover:hover > *:nth-child(2) {
   display: block;
