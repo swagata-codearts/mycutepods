@@ -144,6 +144,23 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
 }
 
+.custom-heading {
+  text-align: center;
+}
+.custom-heading h5 {
+  font-family: var(--ff-primary);
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--c-primary);
+}
+.custom-heading h2 {
+  font-family: var(--ff-primary);
+  font-size: 55px;
+  font-weight: 700;
+  color: var(--c-text-primary);
+  margin-top: 26px;
+}
+
 /* *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* HOMEPAGE START *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* */
 
 /* *************** Header Section Start *************** */
