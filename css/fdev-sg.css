@@ -5,7 +5,81 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+    padding: 160px 0 0;
+}
+.footer-wrap .footer-content h5 {
+    margin-top: 35px;
+}
+.footer-wrap .footer-content .custom-para {
+    line-height: 27px;
+    margin: 22px 0 26px;
+    font-size: 14px;
+    padding-right: 90px;
+}
+.footer-wrap .footer-content .footer-mail span {
+    background-color: var(--c-secondary);
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 32px;
+    color: var(--c-white-900);
+    border-radius: 50px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.footer-wrap .footer-content .footer-mail {
+    text-decoration: none;
+    color: var(--c-text-secondary);
+    font-family: var(--ff-secondary);
+    font-size: 14px;
+    font-weight: 500;
+}
+.footer-content.footer-contact-form {
+    text-align: center;
+}
+.footer-content.footer-contact-form h4 {
+    font-family: var(--ff-primary);
+    font-size: 29px;
+    font-weight: 600;
+    color: var(--c-text-primary);
+}
+.footer-content.footer-contact-form .custom-para {
+    padding: 0 160px;
+    margin: 16px !important;
+}
+.footer-content.footer-contact-form .footer-email-form .mb-3.footer-email {
+    display: flex;
+    justify-content: center;
+}
+.footer-content.footer-contact-form .footer-email-form .mb-3.footer-email .form-control::placeholder {
+    font-family: var(--ff-secondary);
+    font-size: 12px;
+    color: var(--c-text-tertiary) !important;
+    font-weight: 500;
+}
+.footer-content.footer-contact-form .footer-email-form {
+    margin-top: 26px;
+}
+.footer-content.footer-contact-form .footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content.footer-contact-form .footer-social li {
+    padding: 0 10px;
+}
+.footer-content.footer-contact-form .footer-social li a {
+    text-decoration: none;
+    color: var(--c-secondary);
+    font-size: 16px;
+    background-color: var(--c-white-900);
+    height: 35px;
+    width: 35px;
+    line-height: 37px;
+    border-radius: 5px;
+    display: inline-block;
+}
 /*Footer*/
 
 
