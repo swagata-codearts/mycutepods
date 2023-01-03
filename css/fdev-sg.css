@@ -1,5 +1,14 @@
 /* *************** <add section name> Section Start *************** */
 
+/*Products*/
+.choose-products.products-section.custom-pad .choose-products-content-box {
+    height: 525px;
+}
+.choose-products.products-section.custom-pad {
+    padding: 120px 0 140px;
+}
+/*Products*/
+
 /*Choose-Products*/
 .choose-products .choose-products-content .choose-products-content-box-img a img {
     width: 100%;
@@ -12,7 +21,7 @@
     margin-top: 12px;
 }
 .choose-products .choose-products-content .choose-products-content-box {
-    height: 522px;
+    height: 585px;
 }
 .choose-products .choose-products-content .choose-products-content-box-text h4 {
     font-family: var(--ff-primary);
@@ -45,16 +54,20 @@
     font-weight: 600;
 }
 .choose-products .choose-products-content-box-text {
-    padding: 40px 0;
+    padding: 40px 0px;
 }
 .choose-products.custom-pad {
-    padding: 120px 0 40px;
+    padding: 120px 0px 0;
+}
+.choose-products .choose-products-content {
+    margin-top: 68px;
 }
 /*Choose-Products*/
 
 /*Brands*/
 .brand.custom-pad {
     padding-bottom: 150px;
+    padding-top: 108px;
 }
 .brand .brand-content {
     margin-top: 70px;
