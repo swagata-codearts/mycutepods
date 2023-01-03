@@ -9,6 +9,32 @@
 }
 /*Products*/
 
+/*Testimonial*/
+.testimonial .testi-box img {
+    width: 100px !important;
+    object-fit: cover;
+    height: 100px !important;
+    border-radius: 50px;
+}
+.testimonial .testi-box .client-img {
+    justify-content: center;
+    display: flex;
+}
+.testimonial .testi-box {
+    text-align: center;
+    background-color: var(--c-white-900);
+    padding: 50px;
+    border-radius: 25px;
+    margin: 0 20px;
+}
+.testimonial.custom-pad {
+    background-color: #f9f6ef;
+}
+.testimonial .testimonial-carousel {
+    padding: 0 0px 0 20px;
+}
+/*Testimonial*/
+
 /*Choose-Products*/
 .choose-products .choose-products-content .choose-products-content-box-img a img {
     width: 100%;
