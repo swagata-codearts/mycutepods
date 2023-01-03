@@ -1,4 +1,15 @@
 /* *************** <add section name> Section Start *************** */
+
+/*Footer*/
+.footer-wrap {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/*Footer*/
+
+
+
 /* *************** <add section name> Section End *************** */
 
 @media (min-width: 1600px) and (max-width: 1500px){
