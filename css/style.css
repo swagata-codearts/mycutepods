@@ -13,8 +13,10 @@
   --c-primary: #efcfa0;
   --c-secondary: #79491e;
   --c-tertiary: #f6f6f6;
+
   --c-white-900: #ffffffff;
   --c-black-900: #090b0bff;
+  --c-black-700: #766A59;
 
   --c-text-primary: #383838;
   --c-text-secondary: #3d3d3d;
@@ -83,6 +85,9 @@ h1, h2, h3, h4, h5, h6 {
 .container {
   max-width: 1410px;
 }
+.container-alt {
+  max-width: 1784px;
+}
 /* .on-hover:hover > *:nth-child(2) {
   display: block;
 }
@@ -96,29 +101,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 .custom-header {
   /* change header bg here */
-  background-color: var(--c-white);
+  background-color: var(--c-white-900);
 }
 .custom-button  {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-
   background-color: var(--c-primary);
-  color: var(--c-white-900);
-  border: 2px solid transparent;
-
-  font-family: var(--ff-primary);
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-
-  /* width: 171px; */ 
-        /* or */
-  padding: 0px 32px;
-  height: 56px;
-
-  border-radius: 50px;
-
+  color: var(--c-text-primary);
+  /* border: 2px solid transparent; */
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 0px 0 0 30px;
+  height: 60px;
+  border-radius: 5px;
   position: relative;
 }
 /* If there is a button icon */
@@ -126,14 +123,25 @@ h1, h2, h3, h4, h5, h6 {
   gap: 0 10px;
 }
 .custom-button span {
-  margin: 0;
+  margin: 0 0 0 20px;
+  display: inline-flex;
+  align-items: center;
+  height: inherit;
+  width: 48px;
+  justify-content: center;
+  background-color: var(--c-secondary);
+  border-radius: 0 5px 5px 0;
+  color: var(--c-white-900);
 }
 /* Basic Button Hover */
 .custom-button:hover {
-  background-color: transparent;
-  color: var(--c-primary);
-  border-color: var(--c-primary);
+  background-color: var(--c-secondary);
+  color: var(--c-white-900);
 }
+/* .custom-button:hover span {
+  background-color: var(--c-primary);
+  color: var(--c-secondary);
+} */
 
 .custom-button_form {
   background-color: transparent;
