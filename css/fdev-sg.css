@@ -1,5 +1,25 @@
 /* *************** <add section name> Section Start *************** */
 
+/*Brands*/
+.brand.custom-pad {
+    padding-bottom: 150px;
+}
+.brand .brand-content {
+    margin-top: 70px;
+}
+.brand .brand-content-2 {
+    margin-top: 30px;
+}
+.brand .brand-box {
+    background-color: var(--c-tertiary);
+    text-align: center;
+    height: 150px;
+    padding: 70px;
+    border-radius: 5px;
+}
+
+/*Brands*/
+
 /*Footer*/
 .footer-wrap {
     background-position: center;
