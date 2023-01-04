@@ -215,9 +215,9 @@
     background-color: var(--c-secondary);
     height: 30px;
     width: 30px;
-    display: inline-block;
-    text-align: center;
-    line-height: 32px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     color: var(--c-white-900);
     border-radius: 50px;
     margin-right: 10px;
