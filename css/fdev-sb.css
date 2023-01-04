@@ -137,6 +137,28 @@
 /* *************** Banner Section End *************** */
 
 /* *************** Product Category Section Start *************** */
+.category-carousel .item {
+  /* margin: 0 17px; */
+}
+.category-carousel .owl-nav {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  margin-top: 52px;
+}
+.category-carousel .owl-nav .owl-prev, .category-carousel .owl-nav .owl-next {
+  display: inline-flex;
+  width: 50px;
+  height: 50px;
+  border: 1px solid var(--c-secondary) !important;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--c-secondary) !important;
+  font-size: 24px !important;
+}
+
 .product-category {
   position: relative;
 }
@@ -155,11 +177,29 @@
 }
 .product-category-content {
   position: absolute;
-  top: 0;
+  bottom: 52px;
+  left: 55px;
 }
 .product-category-content .icon img {
   width: 64px;
   height: 64px;
+  object-fit: contain;
+}
+.product-category-content .product-category-title h5 {
+  color: var(--c-white-900);
+  font-size: 27px;
+  line-height: 76px;
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+.product-category-button-wrap .custom-button {
+  height: 44px;
+  font-size: 13px;
+  padding: 0 0 0 22px;
+}
+.product-category-button-wrap .custom-button span {
+  margin: 0 0 0 12px;
+  width: 44px;
 }
 /* *************** Product Category Section End *************** */
 

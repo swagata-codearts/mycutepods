@@ -17,8 +17,9 @@ jQuery('#testimonial-carousel').owlCarousel({
 });
 jQuery('#category-carousel').owlCarousel({
     loop:true,
-    margin:10,
+    margin:44,
     nav:true,
+    navText : ["<i class='las la-arrow-left'></i>","<i class='las la-arrow-right'></i>"],
     responsive:{
         0:{
             items:2
