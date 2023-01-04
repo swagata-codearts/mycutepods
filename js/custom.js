@@ -6,9 +6,9 @@ jQuery('#testimonial-carousel').owlCarousel({
     navText : ["<i class='las la-arrow-left'></i>","<i class='las la-arrow-right'></i>"],
     responsive:{
         0:{
-            items:2
+            items:1
         },
-        600:{
+        768:{
             items:2
         },
         1000:{
