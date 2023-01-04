@@ -203,8 +203,14 @@
 }
 /* *************** Product Category Section End *************** */
 
-/* *************** <add section name> Section Start *************** */
-/* *************** <add section name> Section End *************** */
+/* *************** About Section Start *************** */
+.mask1 {
+  -webkit-mask-image: url('../images/about-mask-image-svg.svg');
+  mask-image: url('../images/about-mask-image-svg.svg');
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;    
+}
+/* *************** About Section End *************** */
 
 @media (min-width: 1600px) and (max-width: 1500px){
 
