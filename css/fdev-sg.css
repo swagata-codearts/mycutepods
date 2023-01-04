@@ -79,12 +79,42 @@
     line-height: 56px;
     text-align: center;
 }
+.testimonial .testimonial-carousel {
+    padding: 0 0px 0 20px;
+    position: relative;
+}
+.testimonial-carousel .owl-prev {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--c-secondary) !important;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--c-secondary) !important;
+    font-size: 24px !important;
+    bottom: 245px;
+    left: -50px;
+    position: absolute;
+}
+.testimonial-carousel .owl-next{
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--c-secondary) !important;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--c-secondary) !important;
+    font-size: 24px !important;
+    top: 245px;
+    left: -50px;
+    position: absolute;
+}
 .testimonial.custom-pad {
     background-color: #f9f6ef;
 }
-.testimonial .testimonial-carousel {
-    padding: 0 0px 0 20px;
-}
+
 /*Testimonial*/
 
 /*Choose-Products*/
@@ -284,6 +314,37 @@
     margin-top: 65px;
     padding-bottom: 40px;
 }
+.footer-content.footer-contact-form .custom-button.form-btn::after {
+    position: absolute;
+    content: '';
+    background-image: url(../images/arrow.webp);
+    width: 100%;
+    top: 21px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 16px;
+}
+.footer-content.footer-contact-form .custom-button.form-btn {
+    position: relative;
+    width: 9%;
+    margin-left: 26px;
+    border-radius: 0;
+    background-color: var(--c-secondary);
+    transition: all 0.3s ease-in-out;
+}
+.footer-content.footer-contact-form .custom-button.form-btn:hover {
+    background-color: var(--c-primary);
+    cursor: pointer;
+}
+.footer-content.footer-contact-form .footer-email-form .form-control {
+    width: 56%;
+    border-radius: 0;
+}
+
 /*Footer*/
 
 
