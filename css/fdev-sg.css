@@ -7,9 +7,23 @@
 .choose-products.products-section.custom-pad {
     padding: 120px 0 140px;
 }
+.choose-products.products-section .product-btn {
+    text-align: center;
+    margin-top: 50px;
+}
 /*Products*/
 
 /*Testimonial*/
+.testimonial.custom-pad .testi-content .custom-heading {
+    text-align: left;
+    padding-right: 60px;
+}
+.testimonial.custom-pad .testi-content .custom-para {
+    margin-top: 22px;
+}
+.testimonial.custom-pad .testi-content .testi-btn {
+    margin-top: 32px;
+}
 .testimonial .testi-box img {
     width: 100px !important;
     object-fit: cover;
@@ -25,7 +39,45 @@
     background-color: var(--c-white-900);
     padding: 50px;
     border-radius: 25px;
-    margin: 0 20px;
+    margin: 0 35px;
+    position: relative;
+}
+.testimonial .testi-box h3 {
+    font-family: var(--ff-primary);
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--c-text-primary);
+    margin-top: 20px;
+}
+.testimonial .testi-box .custom-para {
+    margin-top: 12px;
+}
+.testimonial .testi-box h5 {
+    margin-top: 20px;
+}
+.testimonial .testi-box h6 {
+    font-family: var(--ff-secondary);
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--c-text-tertiary-alt);
+    margin-top: 12px;
+}
+.testimonial .testi-box .testi-quote {
+    position: absolute;
+    top: 95px;
+    left: 0;
+    right: 100px;
+    margin: 0 auto;
+    background-color: var(--c-white-900);
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.testimonial .testi-box .testi-quote span {
+    color: var(--c-secondary);
+    font-size: 26px;
+    line-height: 56px;
+    text-align: center;
 }
 .testimonial.custom-pad {
     background-color: #f9f6ef;
