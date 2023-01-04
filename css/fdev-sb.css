@@ -204,11 +204,56 @@
 /* *************** Product Category Section End *************** */
 
 /* *************** About Section Start *************** */
-.mask1 {
-  -webkit-mask-image: url('../images/about-mask-image-svg.svg');
-  mask-image: url('../images/about-mask-image-svg.svg');
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;    
+.about-left .custom-heading {
+  text-align: left;
+  width: 50%;
+}
+.custom-list li {
+  position: relative;
+}
+.custom-list li::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f058";
+  position: absolute;
+  left: 0;
+  font-size: 22px;
+  top: 1px;
+  color: var(--c-secondary);
+}
+.about-right {
+  position: relative;
+}
+.about-right-carousel .owl-nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 76%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.about-right-carousel .owl-nav .owl-prev  {
+  font-size: 24px !important;
+}
+.about-right-carousel .owl-nav .owl-next {
+  top: 27px;
+  position: absolute;
+  right: 0;
+  font-size: 24px !important;
+}
+.about-right .about-right-carousel .about-right-image .alpha-target {
+  mask-image: url(https://raw.githubusercontent.com/swagata-codearts/mycutepods/main/images/about-mask.png);
+  mask-mode: alpha;
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+}
+.about-right .about-right-carousel .about-right-image .target {
+  display: block;
+  width: 590px;
+  height: 400px;
+  margin: 0 auto;
+  object-fit: cover;
 }
 /* *************** About Section End *************** */
 

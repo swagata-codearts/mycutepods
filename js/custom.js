@@ -33,6 +33,23 @@ jQuery('#category-carousel').owlCarousel({
         }
     }
 });
+jQuery('#about-right-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    navText : ["<i class='las la-angle-left'></i>","<i class='las la-angle-right'></i>"],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
 
 jQuery(document).ready(function(){
     jQuery(window).scroll(function() {
