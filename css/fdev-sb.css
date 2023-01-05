@@ -206,7 +206,10 @@
 
 /* *************** About Section Start *************** */
 .custom-about.custom-pad {
-  padding: 200px 0 160px;
+  padding: 260px 0 160px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .about-left .custom-heading {
   text-align: left;
@@ -242,23 +245,35 @@
 .about-right {
   position: relative;
 }
+.about-right::after {
+  position: absolute;
+  content: '';
+  background-image: url(../images/about-pattern.webp);
+  width: 54%;
+  top: -95px;
+  height: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  right: 100px;
+}
 .about-right-carousel .owl-nav {
   position: absolute;
   display: flex;
   justify-content: space-between;
-  width: 76%;
+  width: 80%;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
 .about-right-carousel .owl-nav .owl-prev  {
-  font-size: 24px !important;
+  font-size: 30px !important;
 }
 .about-right-carousel .owl-nav .owl-next {
   top: 27px;
   position: absolute;
   right: 0;
-  font-size: 24px !important;
+  font-size: 30px !important;
 }
 .about-right .about-right-carousel .about-right-image .alpha-target {
   mask-image: url(https://raw.githubusercontent.com/swagata-codearts/mycutepods/main/images/about-mask.png);
