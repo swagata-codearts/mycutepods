@@ -138,9 +138,9 @@
 /* *************** Banner Section End *************** */
 
 /* *************** Product Category Section Start *************** */
-.category-carousel .item {
-  /* margin: 0 17px; */
-}
+/*.category-carousel .item {
+   margin: 0 17px;
+}*/
 .category-carousel .owl-nav {
   display: flex !important;
   align-items: center;
@@ -205,12 +205,29 @@
 /* *************** Product Category Section End *************** */
 
 /* *************** About Section Start *************** */
+.custom-about.custom-pad {
+  padding: 200px 0 160px;
+}
 .about-left .custom-heading {
   text-align: left;
   width: 50%;
 }
+.custom-list {
+  margin-top: 35px;
+}
+.about-left .custom-paragraph {
+  margin-top: 8px;
+}
+.about-button-wrap {
+  margin-top: 38px;
+}
 .custom-list li {
   position: relative;
+  font-family: var(--ff-secondary);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--c-text-secondary);
+  padding: 0 0 15px 35px;
 }
 .custom-list li::before {
   font-family: "Font Awesome 6 Free";
@@ -219,7 +236,7 @@
   position: absolute;
   left: 0;
   font-size: 22px;
-  top: 1px;
+  top: -3px;
   color: var(--c-secondary);
 }
 .about-right {
