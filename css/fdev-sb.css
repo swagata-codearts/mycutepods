@@ -89,6 +89,7 @@
 }
 .banner-button-wrap {
   margin-top: 60px;
+  transform: rotate(15deg) !important;
 }
 .featured-product {
   position: relative;
