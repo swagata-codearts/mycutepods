@@ -365,6 +365,10 @@
     .testimonial .testi-box {padding: 50px 20px;}
     .testimonial-carousel .owl-next {top: 230px;}
     .testimonial-carousel .owl-prev {bottom: 230px;}
+
+    .choose-products.products-section.custom-pad {padding: 100px 0 120px;}
+    .choose-products.custom-pad {padding: 100px 0px 0;}
+    .brand.custom-pad {padding-bottom: 100px;padding-top: 100px;}
 }
 
 @media (min-width: 1300px) and (max-width: 1400px){
@@ -378,6 +382,10 @@
     .testimonial .testi-box {padding: 50px 20px;}
     .testimonial-carousel .owl-next {top: 245px;}
     .testimonial-carousel .owl-prev {bottom: 245px;}
+
+    .choose-products.products-section.custom-pad {padding: 100px 0 100px;}
+    .choose-products.custom-pad {padding: 100px 0px 0;}
+    .brand.custom-pad {padding-bottom: 100px;padding-top: 100px;}
 }
 @media (min-width: 1200px) and (max-width: 1300px){
 	.choose-products.products-section .product-btn {margin-top: 10px;}
@@ -400,10 +408,14 @@
     .footer-content img {height: 40px;}
     .testimonial-carousel .owl-next {top: 220px;}
     .testimonial-carousel .owl-prev {bottom: 220px;}
+
+    .choose-products.products-section.custom-pad {padding: 90px 0 90px;}
+    .choose-products.custom-pad {padding: 90px 0px 0;}
+    .brand.custom-pad {padding-bottom: 90px;padding-top: 90px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
-	.choose-products.products-section .product-btn {margin-top: 10px;}
+	.choose-products.products-section .product-btn {margin-top: 40px;}
     .testimonial .testimonial-carousel {padding: 0 0px 0 50px;}
     .choose-products .choose-products-content {margin-top: 45px;}
     .choose-products .choose-products-content .choose-products-content-box {height: 385px;}
@@ -426,6 +438,10 @@
     .brand .brand-box {padding: 70px 30px;}
     .testimonial-carousel .owl-next {top: 225px;}
     .testimonial-carousel .owl-prev {bottom: 225px;}
+
+    .choose-products.products-section.custom-pad {padding: 80px 0 80px;}
+    .choose-products.custom-pad {padding: 80px 0px 0;}
+    .brand.custom-pad {padding-bottom: 80px;padding-top: 80px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -452,6 +468,10 @@
     .brand .brand-box {padding: 70px 30px;}
     .testimonial-carousel .owl-next {top: 220px;}
     .testimonial-carousel .owl-prev {bottom: 220px;}
+
+    .choose-products.products-section.custom-pad {padding: 80px 0 80px;}
+    .choose-products.custom-pad {padding: 80px 0px 0;}
+    .brand.custom-pad {padding-bottom: 80px;padding-top: 80px;}
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -483,6 +503,11 @@
     .footer-content {text-align: center;}
     .footer-content.footer-contact-form {padding: 50px 0;}
     .brand .brand-box {height: auto;}
+    .brand .container.modify {padding: 0 15px;}
+
+    .choose-products.products-section.custom-pad {padding: 60px 0 60px;}
+    .choose-products.custom-pad {padding: 60px 0px 0;}
+    .brand.custom-pad {padding-bottom: 60px;padding-top: 60px;}
 }
 
 @media (max-width: 767.98px){
@@ -496,10 +521,13 @@
     .footer-content.footer-contact-form {padding: 40px 0;}
     .footer-content.support ul li {padding-bottom: 10px;}
     .testimonial .testi-content {margin-top: 80px;}
-    .brand .container.modify {padding: 0 15px;}
     .copyright-content {text-align: center;}
     .copyright-brands ul {justify-content: center;}
     .copyright-brands {margin-top: 5px;padding-bottom: 20px;}
+
+    .choose-products.products-section.custom-pad {padding: 50px 0 50px;}
+    .choose-products.custom-pad {padding: 50px 0px 0;}
+    .brand.custom-pad {padding-bottom: 50px;padding-top: 50px;}
 }
 
 @media (max-width: 575.98px){
@@ -508,4 +536,8 @@
     .footer-wrap .footer-content .custom-para {padding-right: 0px;}
     .footer-content.footer-contact-form .footer-email-form .form-control {width: 80%;}
     .footer-content.footer-contact-form .custom-button.form-btn {width: 17%;margin-left: 6px;}
+
+    .choose-products.products-section.custom-pad {padding: 40px 0 40px;}
+    .choose-products.custom-pad {padding: 40px 0px 0;}
+    .brand.custom-pad {padding-bottom: 40px;padding-top: 40px;}
 }
