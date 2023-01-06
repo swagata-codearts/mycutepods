@@ -11,6 +11,12 @@
     text-align: center;
     margin-top: 50px;
 }
+.choose-products-content-box-img {
+    overflow: hidden;
+}
+.choose-products .choose-products-content .choose-products-content-box-img:hover a img {
+    transform: scale(1.08);
+}
 /*Products*/
 
 /*Testimonial*/
@@ -37,10 +43,12 @@
 .testimonial .testi-box {
     text-align: center;
     background-color: var(--c-white-900);
-    padding: 50px;
+    padding: 50px 26px;
     border-radius: 25px;
-    margin: 0 35px;
+    margin: 30px 0px;
     position: relative;
+    width: 92%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.04);
 }
 .testimonial .testi-box h3 {
     font-family: var(--ff-primary);
@@ -80,7 +88,7 @@
     text-align: center;
 }
 .testimonial .testimonial-carousel {
-    padding: 0 0px 0 20px;
+    padding: 0px 0px 0px 30px;
     position: relative;
 }
 .testimonial-carousel .owl-prev {
@@ -93,8 +101,8 @@
     border-radius: 50%;
     color: var(--c-secondary) !important;
     font-size: 24px !important;
-    bottom: 245px;
-    left: -50px;
+    bottom: 260px;
+    left: -85px;
     position: absolute;
 }
 .testimonial-carousel .owl-next{
@@ -107,8 +115,8 @@
     border-radius: 50%;
     color: var(--c-secondary) !important;
     font-size: 24px !important;
-    top: 245px;
-    left: -50px;
+    top: 260px;
+    left: -85px;
     position: absolute;
 }
 .testimonial.custom-pad {
@@ -121,7 +129,10 @@
 .choose-products .choose-products-content .choose-products-content-box-img a img {
     width: 100%;
     object-fit: cover;
+    transition: all 0.3s ease-in-out;
 }
+
+
 .choose-products .choose-products-content .choose-products-content-box-text ul {
     display: flex;
     justify-content: left;
@@ -189,6 +200,10 @@
     height: 160px;
     padding: 70px;
     border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.brand .brand-box:hover {
+    background-color: #e6e5e5;
 }
 .brand .container.modify {
     padding: 0 85px;
@@ -305,6 +320,8 @@
 }
 .copyright-brands ul li {
     padding: 0 0 0 15px;
+    align-items: center;
+    display: inline-flex;
 }
 .copyright-content {
     margin-top: 65px;
@@ -352,7 +369,8 @@
 /* *************** <add section name> Section End *************** */
 
 @media (min-width: 1500px) and (max-width: 1600px){
-
+    .testimonial-carousel .owl-next {left: -75px;}
+    .testimonial-carousel .owl-prev {left: -75px;}
 }
 
 @media (min-width: 1400px) and (max-width: 1500px){
@@ -363,6 +381,11 @@
     .brand .brand-content {margin-top: 45px;}
     .footer-content.support {margin-left: 195px;}
     .testimonial .testi-box {padding: 50px 20px;}
+    .testimonial-carousel .owl-next {top: 260px;left: -57px;}
+    .testimonial-carousel .owl-prev {bottom: 260px;left: -57px;}
+    .choose-products.products-section.custom-pad {padding: 100px 0 120px;}
+    .choose-products.custom-pad {padding: 100px 0px 0;}
+    .brand.custom-pad {padding-bottom: 100px;padding-top: 100px;}
 }
 
 @media (min-width: 1300px) and (max-width: 1400px){
@@ -374,6 +397,12 @@
     .brand .brand-content {margin-top: 45px;}
     .footer-content.support {margin-left: 185px;}
     .testimonial .testi-box {padding: 50px 20px;}
+    .testimonial-carousel .owl-next {top: 210px;left: -57px;}
+    .testimonial-carousel .owl-prev {bottom: 210px;left: -57px;}
+
+    .choose-products.products-section.custom-pad {padding: 100px 0 100px;}
+    .choose-products.custom-pad {padding: 100px 0px 0;}
+    .brand.custom-pad {padding-bottom: 100px;padding-top: 100px;}
 }
 @media (min-width: 1200px) and (max-width: 1300px){
 	.choose-products.products-section .product-btn {margin-top: 10px;}
@@ -394,10 +423,16 @@
     .testimonial .testi-box h6 {margin-top: 5px;}
     .footer-content.footer-contact-form .custom-para {padding: 0 110px;}
     .footer-content img {height: 40px;}
+    .testimonial-carousel .owl-next {top: 210px;left: -50px;}
+    .testimonial-carousel .owl-prev {bottom: 210px;left: -50px;}
+
+    .choose-products.products-section.custom-pad {padding: 90px 0 90px;}
+    .choose-products.custom-pad {padding: 90px 0px 0;}
+    .brand.custom-pad {padding-bottom: 90px;padding-top: 90px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
-	.choose-products.products-section .product-btn {margin-top: 10px;}
+	.choose-products.products-section .product-btn {margin-top: 40px;}
     .testimonial .testimonial-carousel {padding: 0 0px 0 50px;}
     .choose-products .choose-products-content {margin-top: 45px;}
     .choose-products .choose-products-content .choose-products-content-box {height: 385px;}
@@ -418,6 +453,12 @@
     .footer-wrap .footer-content .custom-para {padding-right: 20px;}
     .footer-content img {height: 40px;}
     .brand .brand-box {padding: 70px 30px;}
+    .testimonial-carousel .owl-next {top: 225px;left: -50px;}
+    .testimonial-carousel .owl-prev {bottom: 225px;left: -50px;}
+
+    .choose-products.products-section.custom-pad {padding: 80px 0 80px;}
+    .choose-products.custom-pad {padding: 80px 0px 0;}
+    .brand.custom-pad {padding-bottom: 80px;padding-top: 80px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -442,11 +483,17 @@
     .footer-wrap .footer-content .custom-para {padding-right: 20px;}
     .footer-content img {height: 40px;}
     .brand .brand-box {padding: 70px 30px;}
+    .testimonial-carousel .owl-next {top: 220px;left: -50px;}
+    .testimonial-carousel .owl-prev {bottom: 220px;left: -50px;}
+
+    .choose-products.products-section.custom-pad {padding: 80px 0 80px;}
+    .choose-products.custom-pad {padding: 80px 0px 0;}
+    .brand.custom-pad {padding-bottom: 80px;padding-top: 80px;}
 }
 
 @media only screen and (max-width: 991.98px) {    
     .choose-products.products-section .product-btn {margin-top: 10px;}
-    .testimonial .testimonial-carousel {padding: 0 0px 0 30px;}
+    .testimonial .testimonial-carousel {padding: 0 0px 0 4px;}
     .choose-products .choose-products-content {margin-top: 25px;}
     .choose-products .choose-products-content .choose-products-content-box {height: auto;}
     .choose-products.products-section.custom-pad .choose-products-content-box {height: auto;}
@@ -465,14 +512,19 @@
     .footer-content.footer-contact-form .custom-button.form-btn {width: 12%;margin-left: 16px;}
     .footer-wrap .footer-content .custom-para {padding-right: 20px;}
     .footer-content img {height: 40px;}
-    .brand .brand-box {padding: 70px 30px;margin-bottom: 15px;}
-    .testimonial .testi-content {margin-top: 90px;}
+    .brand .brand-box {padding: 65px 30px;margin-bottom: 15px;}
+    .testimonial .testi-content {margin-top: 90px;text-align: center;}
     .testimonial-carousel .owl-prev {bottom: -50px;left: 0px;right: 70px;margin: 0 auto;}
     .testimonial-carousel .owl-next {top: auto;bottom: -50px;left: 70px;right: 0;margin: 0 auto;}
     .brand .brand-content-2 {margin-top: 0px;}
     .footer-content {text-align: center;}
     .footer-content.footer-contact-form {padding: 50px 0;}
-    .brand .brand-box {height: auto;}
+    .brand .brand-box {height: 160px;}
+    .brand .container.modify {padding: 0 15px;}
+    .testimonial.custom-pad .testi-content .custom-heading {text-align: center;padding-right: 0;}
+    .choose-products.products-section.custom-pad {padding: 60px 0 60px;}
+    .choose-products.custom-pad {padding: 60px 0px 0;}
+    .brand.custom-pad {padding-bottom: 60px;padding-top: 60px;}
 }
 
 @media (max-width: 767.98px){
@@ -486,10 +538,13 @@
     .footer-content.footer-contact-form {padding: 40px 0;}
     .footer-content.support ul li {padding-bottom: 10px;}
     .testimonial .testi-content {margin-top: 80px;}
-    .brand .container.modify {padding: 0 15px;}
     .copyright-content {text-align: center;}
     .copyright-brands ul {justify-content: center;}
     .copyright-brands {margin-top: 5px;padding-bottom: 20px;}
+    .choose-products.products-section.custom-pad {padding: 50px 0 50px;}
+    .choose-products.custom-pad {padding: 50px 0px 0;}
+    .brand.custom-pad {padding-bottom: 50px;padding-top: 50px;}
+    
 }
 
 @media (max-width: 575.98px){
@@ -498,4 +553,9 @@
     .footer-wrap .footer-content .custom-para {padding-right: 0px;}
     .footer-content.footer-contact-form .footer-email-form .form-control {width: 80%;}
     .footer-content.footer-contact-form .custom-button.form-btn {width: 17%;margin-left: 6px;}
+    .footer-content.footer-contact-form .custom-button.form-btn::after {top: 15px !important;}
+    .choose-products.products-section.custom-pad {padding: 40px 0 40px;}
+    .choose-products.custom-pad {padding: 40px 0px 0;}
+    .brand.custom-pad {padding-bottom: 40px;padding-top: 40px;}
+    .testimonial.custom-pad .testi-content .testi-btn {margin-top: 20px;}
 }

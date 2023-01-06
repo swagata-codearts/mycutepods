@@ -1,28 +1,55 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-@media (min-width: 1600px) and (max-width: 1500px){
+@media (min-width: 1800px) and (max-width: 1900px){
 	
 }
 
-@media (min-width: 1500px) and (max-width: 1400px){
+@media (min-width: 1700px) and (max-width: 1800px){
 	
 }
 
-@media (min-width: 1400px) and (max-width: 1300px){
+@media (min-width: 1600px) and (max-width: 1700px){
 	
 }
-@media (min-width: 1300px) and (max-width: 1200px){
+
+@media (min-width: 1500px) and (max-width: 1600px){
 	
+}
+
+@media (min-width: 1400px) and (max-width: 1500px){
+	.custom-pad {padding: 100px 0;}
+    .custom-heading h2 {font-size: 48px;margin-top: 10px;}
+}
+
+@media (min-width: 1300px) and (max-width: 1400px){
+    .custom-pad {padding: 100px 0;}
+    .custom-heading h2 {font-size: 48px;margin-top: 10px;}
+    .custom-button {font-size: 14px;padding: 0px 0 0 25px;height: 55px;}
+    .container {max-width: 1170px;}
+}
+@media (min-width: 1200px) and (max-width: 1300px){
+	.custom-pad {padding: 90px 0;}
+    .custom-heading h2 {font-size: 44px;margin-top: 8px;}
+    .custom-button {font-size: 14px;padding: 0px 0 0 25px;height: 55px;}
+    p {font-size: 14px;line-height: 26px;}
+    .container {max-width: 1170px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
-	
+	.custom-pad {padding: 80px 0;}
+    .custom-heading h2 {font-size: 38px;margin-top: 6px;}
+    .custom-button {font-size: 13px;padding: 0px 0 0 15px;height: 50px;}
+    .custom-button span {margin: 0 0 0 5px;}
+    p {font-size: 14px;line-height: 26px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-	
+	.custom-pad {padding: 80px 0;}
+    .custom-heading h2 {font-size: 38px;margin-top: 6px;}
+    .custom-button {font-size: 13px;padding: 0px 0 0 15px;height: 50px;}
+    .custom-button span {margin: 0 0 0 5px;}
+    p {font-size: 13px;line-height: 24px;}
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -34,13 +61,25 @@
 .navbar-toggler .icon-bar:nth-child(3){opacity: 0}
 .navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
 .navbar-header {display: block;}
+
+    .custom-pad {padding: 60px 0;}
+    .custom-heading h2 {font-size: 34px;margin-top: 4px;}
+    .custom-button {font-size: 13px;padding: 0px 0 0 8px;height: 50px;}
+    .custom-button span {margin: 0 0 0 0px;}
+    p {font-size: 13px;line-height: 24px;}
 }
 
 
 @media (max-width: 767.98px){
-    
+    .custom-button {font-size: 12px;padding: 0px 0 0 8px;height: 44px;gap: 0 6px;}
+    .custom-button span {width: 38px;}
+    .custom-heading h2 {font-size: 28px;margin-top: 4px;}
+    .custom-heading h5 {font-size: 15px;}
+    .custom-pad {padding: 50px 0;}
 }
 
 @media (max-width: 575.98px){
-    
+    .custom-pad {padding: 40px 0;}
+    .custom-heading h2 {font-size: 22px;margin-top: 4px;}
+    .custom-heading h5 {font-size: 14px;}
 }
