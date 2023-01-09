@@ -363,10 +363,16 @@
 }
 
 /*Footer*/
-
-
-
 /* *************** <add section name> Section End *************** */
+/*****************Inner pages Start******************/
+/*About-Us*/
+.custom-about.about-inner.custom-pad::before {
+    display: none;
+}
+.custom-about.about-inner.custom-pad {
+    background-color: transparent;
+}
+/*****************Inner pages Start******************/
 
 @media (min-width: 1500px) and (max-width: 1600px){
     .testimonial-carousel .owl-next {left: -75px;}
