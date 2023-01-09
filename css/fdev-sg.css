@@ -673,15 +673,16 @@
     .about-inner-service-content h4 {font-size: 20px;}
     .about-inner.our-mission-content {padding-left: 55px;}
     .about-inner-service-box {padding: 60px 0px;}
-    .about-inner-service-box.first::after {left: 185px;}
-    .about-inner-service-box.second::after {left: 175px;}
+    .about-inner-service-box.first::after {left: 195px;}
+    .about-inner-service-box.second::after {left: 185px;}
     .about-inner-service.custom-pad::before {top: -90px;}
-    .about-inner-service-box.third::after {left: 175px;}
+    .about-inner-service-box.third::after {left: 185px;}
     .about-inner.our-mission-content {padding-left: 0px;margin-top: 40px;}
     .about-inner.our-mission-content-heading {margin-top: 30px;}
     .about-inner.our-mission-content h3 {font-size: 24px;}
     .custom-about.about-inner.custom-pad {padding-bottom: 0;}
     .about-inner-service-box.third {margin-top: 25px;}
+    .about-inner-service-wrap .container {padding: 0 0;}
 
 }
 
@@ -704,9 +705,9 @@
     .brand.custom-pad {padding-bottom: 50px;padding-top: 50px;}
     /*About Us*/
     .about-inner-service-box.second {margin-top: 25px;}
-    .about-inner-service-box.first::after {left: 275px;width: 13%;}
-    .about-inner-service-box.second::after {left: 265px;width: 13%;}
-    .about-inner-service-box.third::after {left: 265px;width: 13%;}
+    .about-inner-service-box.first::after {left: 295px;width: 13%;}
+    .about-inner-service-box.second::after {left: 285px;width: 13%;}
+    .about-inner-service-box.third::after {left: 285px;width: 13%;}
     .about-inner.our-mission-content {text-align: center;margin-top: 30px;}
     .about-inner.our-mission-content-heading {margin-top: 20px;}
 }
@@ -724,21 +725,21 @@
     .testimonial.custom-pad .testi-content .testi-btn {margin-top: 20px;}
     /*About Us*/
     .about-inner-service-box.second {margin-top: 25px;}
-    .about-inner-service-box.first::after {left: 205px;width: 20%;}
-    .about-inner-service-box.second::after {left: 205px;width: 20%;}
-    .about-inner-service-box.third::after {left: 205px;width: 20%;}
+    .about-inner-service-box.first::after {left: 235px;width: 18%;}
+    .about-inner-service-box.second::after {left: 235px;width: 18%;}
+    .about-inner-service-box.third::after {left: 235px;width: 18%;}
 
 }
 
 @media (max-width: 479.98px){
     /*About Us*/
-    .about-inner-service-box.first::after {left: 175px;width: 18%;}
-    .about-inner-service-box.second::after {left: 175px;width: 18%;}
-    .about-inner-service-box.third::after {left: 175px;width: 18%;}
+    .about-inner-service-box.first::after {left: 205px;width: 18%;}
+    .about-inner-service-box.second::after {left: 205px;width: 18%;}
+    .about-inner-service-box.third::after {left: 205px;width: 18%;}
 }
 @media (max-width: 389.98px){
     /*About Us*/
-    .about-inner-service-box.first::after {left: 135px;width: 18%;}
-    .about-inner-service-box.second::after {left: 135px;width: 18%;}
-    .about-inner-service-box.third::after {left: 135px;width: 18%;}
+    .about-inner-service-box.first::after {left: 165px;width: 18%;}
+    .about-inner-service-box.second::after {left: 165px;width: 18%;}
+    .about-inner-service-box.third::after {left: 165px;width: 18%;}
 }
