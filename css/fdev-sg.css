@@ -405,7 +405,7 @@
     font-size: 26px;
     font-weight: 700;
     color: var(--c-text-primary);
-    margin-top: 20px;
+    margin-top: 35px;
 }
 .about-inner-service-box.first {
     position: relative;
@@ -455,6 +455,25 @@
     left: 185px;
     z-index: 1;
 }
+.about-inner.our-mission-img img {
+    width: 100%;
+    object-fit: cover;
+}
+.about-inner.our-mission-content {
+    padding-left: 75px;
+}
+.about-inner.our-mission-content .custom-para {
+    margin-top: 16px;
+    padding-right: 30px;
+}
+.about-inner.our-mission-content h3 {
+    font-family: var(--ff-primary);
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--c-text-primary);
+    margin-top: 50px;
+}
+
 /*****************Inner pages Start******************/
 
 @media (min-width: 1500px) and (max-width: 1600px){
