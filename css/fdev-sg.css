@@ -724,8 +724,21 @@
     .testimonial.custom-pad .testi-content .testi-btn {margin-top: 20px;}
     /*About Us*/
     .about-inner-service-box.second {margin-top: 25px;}
-    .about-inner-service-box.first::after {left: 145px;width: 23%;}
-    .about-inner-service-box.second::after {left: 135px;width: 23%;}
-    .about-inner-service-box.third::after {left: 135px;width: 23%;}
+    .about-inner-service-box.first::after {left: 205px;width: 20%;}
+    .about-inner-service-box.second::after {left: 205px;width: 20%;}
+    .about-inner-service-box.third::after {left: 205px;width: 20%;}
 
+}
+
+@media (max-width: 479.98px){
+    /*About Us*/
+    .about-inner-service-box.first::after {left: 175px;width: 18%;}
+    .about-inner-service-box.second::after {left: 175px;width: 18%;}
+    .about-inner-service-box.third::after {left: 175px;width: 18%;}
+}
+@media (max-width: 389.98px){
+    /*About Us*/
+    .about-inner-service-box.first::after {left: 135px;width: 18%;}
+    .about-inner-service-box.second::after {left: 135px;width: 18%;}
+    .about-inner-service-box.third::after {left: 135px;width: 18%;}
 }
