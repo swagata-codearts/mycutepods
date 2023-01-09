@@ -471,6 +471,8 @@
     font-size: 28px;
     font-weight: 700;
     color: var(--c-text-primary);
+}
+.about-inner.our-mission-content-heading {
     margin-top: 50px;
 }
 
@@ -494,6 +496,9 @@
     .choose-products.products-section.custom-pad {padding: 100px 0 120px;}
     .choose-products.custom-pad {padding: 100px 0px 0;}
     .brand.custom-pad {padding-bottom: 100px;padding-top: 100px;}
+    /*About Us*/
+    .about-inner.our-mission-content .custom-para {padding-right: 10px;}
+    .about-inner-service-wrap {padding: 0 0px;}
 }
 
 @media (min-width: 1300px) and (max-width: 1400px){
@@ -507,10 +512,14 @@
     .testimonial .testi-box {padding: 50px 20px;}
     .testimonial-carousel .owl-next {top: 210px;left: -57px;}
     .testimonial-carousel .owl-prev {bottom: 210px;left: -57px;}
-
     .choose-products.products-section.custom-pad {padding: 100px 0 100px;}
     .choose-products.custom-pad {padding: 100px 0px 0;}
     .brand.custom-pad {padding-bottom: 100px;padding-top: 100px;}
+    /*About Us*/
+    .about-inner.our-mission-content .custom-para {padding-right: 10px;}
+    .about-inner-service-wrap {padding: 0 0px;}
+    .about-inner-service-content h4 {font-size: 23px;}
+    .about-inner.our-mission-content {padding-left: 55px;}
 }
 @media (min-width: 1200px) and (max-width: 1300px){
 	.choose-products.products-section .product-btn {margin-top: 10px;}
@@ -533,10 +542,15 @@
     .footer-content img {height: 40px;}
     .testimonial-carousel .owl-next {top: 210px;left: -50px;}
     .testimonial-carousel .owl-prev {bottom: 210px;left: -50px;}
-
     .choose-products.products-section.custom-pad {padding: 90px 0 90px;}
     .choose-products.custom-pad {padding: 90px 0px 0;}
     .brand.custom-pad {padding-bottom: 90px;padding-top: 90px;}
+    /*About Us*/
+    .about-inner.our-mission-content .custom-para {padding-right: 10px;margin-top: 10px;}
+    .about-inner-service-wrap {padding: 0 0px;}
+    .about-inner-service-content h4 {font-size: 23px;}
+    .about-inner.our-mission-content {padding-left: 55px;}
+    .about-inner.our-mission-content-heading {margin-top: 30px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -563,10 +577,19 @@
     .brand .brand-box {padding: 70px 30px;}
     .testimonial-carousel .owl-next {top: 225px;left: -50px;}
     .testimonial-carousel .owl-prev {bottom: 225px;left: -50px;}
-
     .choose-products.products-section.custom-pad {padding: 80px 0 80px;}
     .choose-products.custom-pad {padding: 80px 0px 0;}
     .brand.custom-pad {padding-bottom: 80px;padding-top: 80px;}
+    /*About Us*/
+    .about-inner.our-mission-content .custom-para {padding-right: 10px;margin-top: 10px;}
+    .about-inner-service-wrap {padding: 0 0px;}
+    .about-inner-service-content h4 {font-size: 20px;}
+    .about-inner.our-mission-content {padding-left: 55px;}
+    .about-inner-service-box {padding: 60px 0px;}
+    .about-inner-service-box.first::after {left: 165px;}
+    .about-inner-service-box.second::after {left: 155px;}
+    .about-inner-service-box.third::after {left: 155px;}
+    .about-inner.our-mission-content-heading {margin-top: 30px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -593,10 +616,21 @@
     .brand .brand-box {padding: 70px 30px;}
     .testimonial-carousel .owl-next {top: 220px;left: -50px;}
     .testimonial-carousel .owl-prev {bottom: 220px;left: -50px;}
-
     .choose-products.products-section.custom-pad {padding: 80px 0 80px;}
     .choose-products.custom-pad {padding: 80px 0px 0;}
     .brand.custom-pad {padding-bottom: 80px;padding-top: 80px;}
+    /*About Us*/
+    .about-inner.our-mission-content .custom-para {padding-right: 10px;margin-top: 10px;}
+    .about-inner-service-wrap {padding: 0 0px;}
+    .about-inner-service-content h4 {font-size: 20px;}
+    .about-inner.our-mission-content {padding-left: 55px;}
+    .about-inner-service-box {padding: 60px 0px;}
+    .about-inner-service-box.first::after {left: 165px;}
+    .about-inner-service-box.second::after {left: 155px;}
+    .about-inner-service-box.third::after {left: 155px;}
+    .about-inner.our-mission-content {padding-left: 15px;}
+    .about-inner.our-mission-content-heading {margin-top: 30px;}
+    .about-inner.our-mission-content h3 {font-size: 24px;}
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -633,6 +667,22 @@
     .choose-products.products-section.custom-pad {padding: 60px 0 60px;}
     .choose-products.custom-pad {padding: 60px 0px 0;}
     .brand.custom-pad {padding-bottom: 60px;padding-top: 60px;}
+    /*About Us*/
+    .about-inner.our-mission-content .custom-para {padding-right: 10px;margin-top: 10px;}
+    .about-inner-service-wrap {padding: 0 0px;}
+    .about-inner-service-content h4 {font-size: 20px;}
+    .about-inner.our-mission-content {padding-left: 55px;}
+    .about-inner-service-box {padding: 60px 0px;}
+    .about-inner-service-box.first::after {left: 185px;}
+    .about-inner-service-box.second::after {left: 175px;}
+    .about-inner-service.custom-pad::before {top: -90px;}
+    .about-inner-service-box.third::after {left: 175px;}
+    .about-inner.our-mission-content {padding-left: 0px;margin-top: 40px;}
+    .about-inner.our-mission-content-heading {margin-top: 30px;}
+    .about-inner.our-mission-content h3 {font-size: 24px;}
+    .custom-about.about-inner.custom-pad {padding-bottom: 0;}
+    .about-inner-service-box.third {margin-top: 25px;}
+
 }
 
 @media (max-width: 767.98px){
@@ -652,7 +702,13 @@
     .choose-products.products-section.custom-pad {padding: 50px 0 50px;}
     .choose-products.custom-pad {padding: 50px 0px 0;}
     .brand.custom-pad {padding-bottom: 50px;padding-top: 50px;}
-    
+    /*About Us*/
+    .about-inner-service-box.second {margin-top: 25px;}
+    .about-inner-service-box.first::after {left: 275px;width: 13%;}
+    .about-inner-service-box.second::after {left: 265px;width: 13%;}
+    .about-inner-service-box.third::after {left: 265px;width: 13%;}
+    .about-inner.our-mission-content {text-align: center;margin-top: 30px;}
+    .about-inner.our-mission-content-heading {margin-top: 20px;}
 }
 
 @media (max-width: 575.98px){
@@ -666,4 +722,10 @@
     .choose-products.custom-pad {padding: 40px 0px 0;}
     .brand.custom-pad {padding-bottom: 40px;padding-top: 40px;}
     .testimonial.custom-pad .testi-content .testi-btn {margin-top: 20px;}
+    /*About Us*/
+    .about-inner-service-box.second {margin-top: 25px;}
+    .about-inner-service-box.first::after {left: 145px;width: 23%;}
+    .about-inner-service-box.second::after {left: 135px;width: 23%;}
+    .about-inner-service-box.third::after {left: 135px;width: 23%;}
+
 }
