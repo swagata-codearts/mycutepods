@@ -372,6 +372,89 @@
 .custom-about.about-inner.custom-pad {
     background-color: transparent;
 }
+.about-inner-service.custom-pad {
+    background-color: #f9f6ef;
+    position: relative;
+}
+.about-inner-service.custom-pad::before {
+    position: absolute;
+    content: '';
+    background-image: url(../images/about-inner-service-pattern.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 87%;
+    top: 0;
+    left: -25%;
+    z-index: 1;
+}
+.about-inner-service-box {
+    text-align: center;
+    background-color: var(--c-white-900);
+    padding: 70px 0px;
+    border-radius: 10px;
+}
+.about-inner-service-wrap {
+    padding: 0 105px;
+    position: relative;
+    z-index: 2;
+}
+.about-inner-service-content h4 {
+    font-family: var(--ff-primary);
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--c-text-primary);
+    margin-top: 20px;
+}
+.about-inner-service-box.first {
+    position: relative;
+}
+.about-inner-service-box.first::after {
+    position: absolute;
+    content: '';
+    background-image: url(../images/fast&free-pattern.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20%;
+    height: 100%;
+    top: -30px;
+    left: 195px;
+    z-index: 1;
+}
+.about-inner-service-box.second {
+    position: relative;
+}
+.about-inner-service-box.second::after {
+    position: absolute;
+    content: '';
+    background-image: url(../images/money-pattern.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20%;
+    height: 100%;
+    top: -30px;
+    left: 185px;
+    z-index: 1;
+}
+.about-inner-service-box.third {
+    position: relative;
+}
+.about-inner-service-box.third::after {
+    position: absolute;
+    content: '';
+    background-image: url(../images/help-center-pattern.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20%;
+    height: 100%;
+    top: -30px;
+    left: 185px;
+    z-index: 1;
+}
 /*****************Inner pages Start******************/
 
 @media (min-width: 1500px) and (max-width: 1600px){
