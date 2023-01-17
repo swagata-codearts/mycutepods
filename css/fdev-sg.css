@@ -18,113 +18,6 @@
     transform: scale(1.08);
 }
 /*Products*/
-
-/*Testimonial*/
-.testimonial.custom-pad .testi-content .custom-heading {
-    text-align: left;
-    padding-right: 60px;
-}
-.testimonial.custom-pad .testi-content .custom-para {
-    margin-top: 22px;
-}
-.testimonial.custom-pad .testi-content .testi-btn {
-    margin-top: 32px;
-}
-.testimonial .testi-box img {
-    width: 100px !important;
-    object-fit: cover;
-    height: 100px !important;
-    border-radius: 50px;
-}
-.testimonial .testi-box .client-img {
-    justify-content: center;
-    display: flex;
-}
-.testimonial .testi-box {
-    text-align: center;
-    background-color: var(--c-white-900);
-    padding: 50px 26px;
-    border-radius: 25px;
-    margin: 30px 0px;
-    position: relative;
-    width: 92%;
-    box-shadow: 0 0 20px rgba(0,0,0,0.04);
-}
-.testimonial .testi-box h3 {
-    font-family: var(--ff-primary);
-    font-size: 25px;
-    font-weight: 600;
-    color: var(--c-text-primary);
-    margin-top: 20px;
-}
-.testimonial .testi-box .custom-para {
-    margin-top: 12px;
-}
-.testimonial .testi-box h5 {
-    margin-top: 20px;
-}
-.testimonial .testi-box h6 {
-    font-family: var(--ff-secondary);
-    font-size: 13px;
-    font-weight: 500;
-    color: var(--c-text-tertiary-alt);
-    margin-top: 12px;
-}
-.testimonial .testi-box .testi-quote {
-    position: absolute;
-    top: 95px;
-    left: 0;
-    right: 100px;
-    margin: 0 auto;
-    background-color: var(--c-white-900);
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
-}
-.testimonial .testi-box .testi-quote span {
-    color: var(--c-secondary);
-    font-size: 26px;
-    line-height: 56px;
-    text-align: center;
-}
-.testimonial .testimonial-carousel {
-    padding: 0px 0px 0px 30px;
-    position: relative;
-}
-.testimonial-carousel .owl-prev {
-    display: inline-flex;
-    width: 50px;
-    height: 50px;
-    border: 1px solid var(--c-secondary) !important;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    color: var(--c-secondary) !important;
-    font-size: 24px !important;
-    bottom: 260px;
-    left: -85px;
-    position: absolute;
-}
-.testimonial-carousel .owl-next{
-    display: inline-flex;
-    width: 50px;
-    height: 50px;
-    border: 1px solid var(--c-secondary) !important;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    color: var(--c-secondary) !important;
-    font-size: 24px !important;
-    top: 260px;
-    left: -85px;
-    position: absolute;
-}
-.testimonial.custom-pad {
-    background-color: #f9f6ef;
-}
-
-/*Testimonial*/
-
 /*Reviews*/
 .reviews-home {
     background-color: #f8f8f8;
@@ -152,16 +45,12 @@
     font-size: 23px;
     padding: 45px 0;
 }
-
-
 /*Choose-Products*/
 .choose-products .choose-products-content .choose-products-content-box-img a img {
     width: 100%;
     object-fit: cover;
     transition: all 0.3s ease-in-out;
 }
-
-
 .choose-products .choose-products-content .choose-products-content-box-text ul {
     display: flex;
     justify-content: left;
@@ -182,7 +71,7 @@
     padding: 0 4px 0 0;
 }
 .choose-products .choose-products-content .choose-products-content-box-text ul li:last-child h6 {
-    color: var(--c-text-secondary);
+    color: var(--c-text-primary);
     font-family: var(--ff-secondary);
     font-weight: 400;
     font-size: 13px;
@@ -211,34 +100,6 @@
     margin-top: 68px;
 }
 /*Choose-Products*/
-
-/*Brands*/
-.brand.custom-pad {
-    padding-bottom: 150px;
-    padding-top: 108px;
-}
-.brand .brand-content {
-    margin-top: 70px;
-}
-.brand .brand-content-2 {
-    margin-top: 20px;
-}
-.brand .brand-box {
-    background-color: var(--c-tertiary);
-    text-align: center;
-    height: 160px;
-    padding: 70px;
-    border-radius: 5px;
-    transition: all 0.3s ease-in-out;
-}
-.brand .brand-box:hover {
-    background-color: #e6e5e5;
-}
-.brand .container.modify {
-    padding: 0 85px;
-}
-/*Brands*/
-
 /*Footer*/
 .footer-wrap {
     background-position: center;
@@ -337,7 +198,7 @@
     font-family: var(--ff-secondary);
     font-size: 14px;
     font-weight: 500;
-    color: var(--c-text-secondary);
+    color: var(--c-text-primary);
 }
 .footer-content.support {
     margin-left: 200px;
@@ -507,9 +368,19 @@
 
 /*****************Inner pages Start******************/
 
+@media (min-width: 1700px) and (max-width: 1800px){
+    .reviews-home::before {top: -59%;}
+
+}
+
+@media (min-width: 1600px) and (max-width: 1700px){
+    .reviews-home::before {top: -59%;}
+}
+
 @media (min-width: 1500px) and (max-width: 1600px){
     .testimonial-carousel .owl-next {left: -75px;}
     .testimonial-carousel .owl-prev {left: -75px;}
+    .reviews-home::before {top: -58%;}
 }
 
 @media (min-width: 1400px) and (max-width: 1500px){
@@ -525,6 +396,7 @@
     .choose-products.products-section.custom-pad {padding: 100px 0 120px;}
     .choose-products.custom-pad {padding: 100px 0px 0;}
     .brand.custom-pad {padding-bottom: 100px;padding-top: 100px;}
+    .reviews-home::before {top: -58%;}
     /*About Us*/
     .about-inner.our-mission-content .custom-para {padding-right: 10px;}
     .about-inner-service-wrap {padding: 0 0px;}
@@ -544,6 +416,8 @@
     .choose-products.products-section.custom-pad {padding: 100px 0 100px;}
     .choose-products.custom-pad {padding: 100px 0px 0;}
     .brand.custom-pad {padding-bottom: 100px;padding-top: 100px;}
+    .reviews-home::before {top: -57%;}
+    .review-home-content h5 {font-size: 21px;padding: 35px 0;}
     /*About Us*/
     .about-inner.our-mission-content .custom-para {padding-right: 10px;}
     .about-inner-service-wrap {padding: 0 0px;}
@@ -574,6 +448,9 @@
     .choose-products.products-section.custom-pad {padding: 90px 0 90px;}
     .choose-products.custom-pad {padding: 90px 0px 0;}
     .brand.custom-pad {padding-bottom: 90px;padding-top: 90px;}
+    .reviews-home::before {top: -57%;}
+    .review-home-content h5 {font-size: 20px;padding: 28px 0;}
+    .review-img img {width: 100%;object-fit: cover;}
     /*About Us*/
     .about-inner.our-mission-content .custom-para {padding-right: 10px;margin-top: 10px;}
     .about-inner-service-wrap {padding: 0 0px;}
@@ -609,6 +486,9 @@
     .choose-products.products-section.custom-pad {padding: 80px 0 80px;}
     .choose-products.custom-pad {padding: 80px 0px 0;}
     .brand.custom-pad {padding-bottom: 80px;padding-top: 80px;}
+    .reviews-home::before {top: -57%;}
+    .review-home-content h5 {font-size: 18px;padding: 22px 0;}
+    .review-img img {width: 100%;object-fit: cover;}
     /*About Us*/
     .about-inner.our-mission-content .custom-para {padding-right: 10px;margin-top: 10px;}
     .about-inner-service-wrap {padding: 0 0px;}
@@ -648,6 +528,9 @@
     .choose-products.products-section.custom-pad {padding: 80px 0 80px;}
     .choose-products.custom-pad {padding: 80px 0px 0;}
     .brand.custom-pad {padding-bottom: 80px;padding-top: 80px;}
+    .reviews-home::before {top: -57%;}
+    .review-home-content h5 {font-size: 18px;padding: 22px 0;}
+    .review-img img {width: 100%;object-fit: cover;}
     /*About Us*/
     .about-inner.our-mission-content .custom-para {padding-right: 10px;margin-top: 10px;}
     .about-inner-service-wrap {padding: 0 0px;}
@@ -696,6 +579,10 @@
     .choose-products.products-section.custom-pad {padding: 60px 0 60px;}
     .choose-products.custom-pad {padding: 60px 0px 0;}
     .brand.custom-pad {padding-bottom: 60px;padding-top: 60px;}
+    .reviews-home::before {top: -53%;}
+    .review-home-content h5 {font-size: 18px;padding: 22px 0;}
+    .review-img img {width: 100%;object-fit: cover;}
+    .review-img {margin-top: 40px;}
     /*About Us*/
     .about-inner.our-mission-content .custom-para {padding-right: 10px;margin-top: 10px;}
     .about-inner-service-wrap {padding: 0 0px;}
@@ -732,6 +619,8 @@
     .choose-products.products-section.custom-pad {padding: 50px 0 50px;}
     .choose-products.custom-pad {padding: 50px 0px 0;}
     .brand.custom-pad {padding-bottom: 50px;padding-top: 50px;}
+    .review-home-content {text-align: center;}
+    .review-home-content .custom-heading {text-align: center;}
     /*About Us*/
     .about-inner-service-box.second {margin-top: 25px;}
     .about-inner-service-box.first::after {left: 295px;width: 13%;}

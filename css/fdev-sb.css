@@ -221,6 +221,9 @@
 /* *************** Product Category Section End *************** */
 
 /* *************** About Section Start *************** */
+.custom-about.custom-pad {
+  background-color: #f9f6ef;
+}
 .about-left .custom-heading {
   text-align: left;
   width: 50%;
@@ -239,7 +242,7 @@
   font-family: var(--ff-secondary);
   font-size: 18px;
   font-weight: 600;
-  color: var(--c-text-secondary);
+  color: var(--c-text-primary);
   padding: 0 0 15px 35px;
 }
 .custom-list li::before {

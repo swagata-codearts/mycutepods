@@ -65,7 +65,7 @@ p {
   margin: 0;
   padding: 0;
   font-size: 15px;
-  color: var(--c-text-secondary);
+  color: var(--c-text-primary);
   font-family: var(--ff-secondary);
   line-height: 31px;
   font-weight: 500;
