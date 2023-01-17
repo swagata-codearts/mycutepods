@@ -621,6 +621,10 @@
     .brand.custom-pad {padding-bottom: 50px;padding-top: 50px;}
     .review-home-content {text-align: center;}
     .review-home-content .custom-heading {text-align: center;}
+    .review-home-content h5 {font-size: 16px;padding: 18px 0;}
+    .custom-our-category.custom-pad .custom-heading {margin-bottom: 20px;}
+    .footer-content.support ul {margin-top: 20px;}
+    .custom-about.custom-pad {padding: 50px 0 40px 0;}
     /*About Us*/
     .about-inner-service-box.second {margin-top: 25px;}
     .about-inner-service-box.first::after {left: 295px;width: 13%;}
@@ -628,6 +632,7 @@
     .about-inner-service-box.third::after {left: 285px;width: 13%;}
     .about-inner.our-mission-content {text-align: center;margin-top: 30px;}
     .about-inner.our-mission-content-heading {margin-top: 20px;}
+    .custom-our-category.custom-pad {margin-bottom: 40px;}
 }
 
 @media (max-width: 575.98px){
@@ -641,6 +646,10 @@
     .choose-products.custom-pad {padding: 40px 0px 0;}
     .brand.custom-pad {padding-bottom: 40px;padding-top: 40px;}
     .testimonial.custom-pad .testi-content .testi-btn {margin-top: 20px;}
+    .reviews-home::before {top: -52%;}
+    .custom-list li {padding: 0 0 10px 30px;}
+    .footer-wrap .footer-content .custom-para {line-height: 24px;font-size: 13px;margin: 14px 0 18px;}
+    .custom-about.custom-pad {padding: 40px 0 40px 0;}
     /*About Us*/
     .about-inner-service-box.second {margin-top: 25px;}
     .about-inner-service-box.first::after {left: 235px;width: 18%;}
