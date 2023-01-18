@@ -161,6 +161,7 @@
   width: 100%;
   bottom: 0;
   height: 62px;
+  z-index: 0;
 }
 .custom-banner .banner-bottom-pattern img {
   width: 100%;
