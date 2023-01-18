@@ -13,7 +13,8 @@
   --c-primary: #efcfa0;
   --c-secondary: #79491e;
   --c-tertiary: #f6f6f6;
-
+  
+  --c-primary-shade: #f2cd93;
   --c-white-900: #ffffffff;
   --c-black-900: #090b0bff;
   --c-black-700: #766A59;
@@ -85,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 /******** Utility Classes ********/
 
 .container {
-  max-width: 1410px;
+  max-width: 1440px;
 }
 .container-alt {
   max-width: 1784px;

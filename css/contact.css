@@ -29,15 +29,28 @@
 .contact-card .image-wrap::before {
   content: '';
   position: absolute;
-  background-image: url('../images/contact-us-location-pin-pattern.png');
   background-size: contain;
-  width: 100px;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 28px;
+  top: 7px;
+}
+.inner-contact .row [class*="col-"]:nth-child(1) .contact-card .image-wrap::before  {
+  background-image: url('../images/contact-us-location-pin-pattern.png');
+}
+.inner-contact .row [class*="col-"]:nth-child(2) .contact-card .image-wrap::before  {
+  background-image: url('../images/contact-us-call-pattern.png');
+}
+.inner-contact .row [class*="col-"]:nth-child(3) .contact-card .image-wrap::before  {
+  background-image: url('../images/contact-us-message-pattern.png');
 }
 .contact-card a {
   font-size: 14px;
   color: var(--c-text-secondary);
   line-height: 25px;
-  width: 60%;
+  width: 65%;
   margin: 0 auto;
   text-align: center;
   font-family: var(--ff-secondary);
@@ -72,5 +85,63 @@
   border-radius: 0;
   font-size: 20px;
   height: 79px;
+  background-color: var(--c-primary-shade);
+}
+.contact-form-container .custom-button:hover {
+  background-color: var(--c-secondary);
+}
+.inner-contact .custom-paragraph {
+  padding-bottom: 70px;
+}
+.custom-google-map .map {
+  height: 570px;
+  padding-bottom: 88px;
+}
+.custom-google-map .map iframe {
+  width: 100%;
+  height: 100%;
 }
 /* *************** Inner Contact End *************** */
+@media only screen and (max-width: 991.98px) {
+  /* inner banner */
+  .custom-inner-banner {background-position: 100%;padding: 123px 0 169px;}
+  .custom-inner-banner .inner-banner-heading {padding-bottom: 5px;}
+  .custom-inner-banner .inner-banner-heading h1 {font-size: 58px;letter-spacing: 5px;}
+  .inner-contact .custom-paragraph {padding-bottom: 45px;}
+  .inner-contact .custom-paragraph p {font-size: 14px;width: 88%;line-height: 28px;padding-top: 14px;}
+  .contact-card {min-height: 238px;margin: 0;}
+  .contact-card img {height: 50px;width: 50px;}
+  .contact-card .image-wrap::before {left: 20px;top: 5px;}
+  .inner-contact .row [class*="col-"]:not(:last-child) .contact-card {margin-bottom: 32px;}
+  .contact-card h4 {font-size: 18px;line-height: 46px;margin: 17px 0 0px;}
+  .contact-card a {font-size: 12px;line-height: 22px;}
+  .form-control-wrapper input, .form-control-wrapper textarea {height: 55px;font-size: 14px;}
+  .form-control-wrapper {padding-bottom: 15px;}
+  .form-control-wrapper textarea {height: 165px !important;padding-top: 15px;}
+  .contact-form-container .custom-button {font-size: 16px;height: 55px;}
+  .custom-google-map .map {padding-bottom: 0px;height: 405px;}
+}
+
+@media (max-width: 767.98px) {
+    /* inner banner */
+  .custom-inner-banner {background-position: 97%;padding: 113px 0 159px;}
+  .custom-inner-banner .inner-banner-heading h1 {font-size: 55px;letter-spacing: 5px;}
+  .inner-contact .custom-paragraph p {font-size: 12px;width: 88%;line-height: 25px;}
+  .contact-card {min-height: 228px;}
+  .form-control-wrapper {padding-bottom: 12px;}
+  .form-control-wrapper input, .form-control-wrapper textarea {font-size: 11px;}
+  .custom-google-map .map {height: 365px;}
+  .inner-banner-pattern {bottom: -1px;}
+}
+
+@media (max-width: 575.98px){
+  .custom-inner-banner {background-position: 100%;padding: 115px 0 75px;}
+  .custom-inner-banner .inner-banner-heading h1 {font-size: 35px;letter-spacing: 4px;line-height: 32px;}
+  .custom-inner-banner nav .breadcrumb {font-size: 13px;line-height: 24px;}
+  .inner-banner-pattern {bottom: -5px;}
+  .contact-card a {width: 95%;}
+  .inner-contact .custom-paragraph p {width: 100%;line-height: 20px;}
+  .inner-contact .custom-paragraph {padding-bottom: 30px;}
+  .form-control-wrapper input, .form-control-wrapper textarea {height: 45px;padding-left: 15px;}
+  .contact-form-container .custom-button {font-size: 15px;height: 45px;}
+}
