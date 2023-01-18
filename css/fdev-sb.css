@@ -684,7 +684,7 @@
   .custom-our-category.custom-pad .custom-heading {margin-bottom: 30px;}
   .product-category-content .product-category-title h5 {font-size: 20px;line-height: 44px;}
   .product-category-content .icon img {width: 35px;height: 35px;}
-  .about-right-carousel .owl-nav {width: 90%;top: 36%;}
+  .about-right-carousel .owl-nav {width: 76%;top: 36%;}
   .custom-banner_content .content .heading {padding: 9px 20px 4px;margin: 0 auto 14px;}
   .featured-product .product-img-b img {height: 360px;}
   .banner-button-wrap {margin-top: 30px;}
@@ -695,8 +695,8 @@
   .custom-list {margin-top: 20px;}
   .custom-list li {font-size: 15px;padding: 0 0 10px 35px;}
   .custom-list li::before {font-size: 20px;}
-  .about-right .about-right-carousel .about-right-image .target {width: 100%;height: auto;}
-  .about-right::after {width: 54%;top: -154px;right: 90px;}
+  .about-right .about-right-carousel .about-right-image .target {width: 80%;height: auto;}
+  .about-right::after {width: 44%;top: -124px;right: 150px;}
   .custom-header .header-nav .navbar-brand.ms-0.py-0 img {width: 70%;}
   .custom-header .profile-actions .nav-item .nav-link span {font-size: 32px;}
   .custom-header .custom-navbar-nav .nav-item .nav-link {font-size: 15px;}
@@ -735,7 +735,7 @@
   .product-img-b .product-b-details .title {font-size: 16px;}
   .product-img-b .product-b-details .price {font-size: 12px;}
   .banner-button-wrap {margin-top: 20px;}
-  .about-right-carousel .owl-nav {width: 93%;}
+  .about-right-carousel .owl-nav {width: 73%;}
   .about-right::after {top: -116px;right: 70px;}
   .custom-banner .d-block.w-100 {height: 370px;width: 100% !important;object-fit: cover;}
   .profile-actions.actions-2.navbar-nav {margin-left: 10%;}
@@ -751,8 +751,8 @@
   .featured-product {display: none;}
   .custom-banner_content {justify-content: center;}
   .custom-banner .d-block.w-100 {height: 300px;}
-  .about-left .custom-heading {width: 100%;text-align: center;}
-  .about-left .custom-paragraph {padding-right: 0;text-align: center;}
+  .about-left .custom-heading {width: 100%;}
+  .about-left .custom-paragraph {padding-right: 0;}
   .about-button-wrap {text-align: center;}
   .about-right::after {top: -100px;right: 58px;}
   .about-right-carousel {margin-top: 50px;}
