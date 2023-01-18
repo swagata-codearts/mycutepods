@@ -587,7 +587,21 @@
     .review-img img {width: 100%;object-fit: cover;}
     .review-img {margin-top: 40px;}
 
-  
+    .custom-header .navbar-expand-lg .navbar-nav .nav-link {padding-right: 7px;padding-left: 7px;}
+    .header-nav .nav-item.active .nav-link {font-size: 24px;}
+    .custom-header .navbar-expand-lg .navbar-nav .nav-link {font-size: 24px;}
+    .profile-actions .nav-item .nav-link {font-size: 14px !important;}
+    .custom-header .megamenu-section .font-weight-bold.text-uppercase {font-size: 14px;padding: 0 0 5px 0;}
+    .custom-header .navbar-expand-lg .navbar-nav .dropdown-menu .megamenu-wrap .nav-link {padding: 14px 0;font-size: 12px !important;}
+    .custom-header .add-padding {padding: 20px 0 35px !important;}
+    .custom-header .header-top {display: none !important;}
+    .custom-header .header-nav {background-color: var(--c-primary);}
+    .custom-header .navbar-collapse {margin-top: 30px;}
+    .custom-header .megamenu .dropdown-menu .bg-white {background-color: var(--c-primary) !important;}
+    .custom-header .megamenu .dropdown-menu .shadow-sm {box-shadow: none !important;}
+    .custom-header .megamenu-wrap {justify-content: left;flex-direction: column;}
+    .custom-banner .featured-product {display: none;}
+    .custom-banner_content {justify-content: center;}
     /*About Us*/
     .about-inner.our-mission-content .custom-para {padding-right: 10px;margin-top: 10px;}
     .about-inner-service-wrap {padding: 0 0px;}
