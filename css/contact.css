@@ -102,6 +102,21 @@
   height: 100%;
 }
 /* *************** Inner Contact End *************** */
+@media (min-width: 1200) and (max-width: 1300px)  {
+  .custom-google-map .map {padding-bottom: 15px;}
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .custom-google-map .map {padding-bottom: 10px;}
+  .custom-inner-banner .inner-banner-heading h1 {font-size: 60px;line-height: 46px;}
+  .custom-inner-banner {padding: 114px 0 140px;}
+  .inner-contact .custom-paragraph p {width: 65%;}
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+  .custom-google-map .map {padding-bottom: 5px;}
+  .custom-inner-banner .inner-banner-heading h1 {font-size: 58px;line-height: 42px;}
+  .custom-inner-banner {padding: 114px 0 140px;}
+  .inner-contact .custom-paragraph p {width: 65%;}
+}
 @media only screen and (max-width: 991.98px) {
   /* inner banner */
   .custom-inner-banner {background-position: 100%;padding: 123px 0 169px;}
@@ -123,7 +138,7 @@
 }
 
 @media (max-width: 767.98px) {
-    /* inner banner */
+  /* inner banner */
   .custom-inner-banner {background-position: 97%;padding: 113px 0 159px;}
   .custom-inner-banner .inner-banner-heading h1 {font-size: 55px;letter-spacing: 5px;}
   .inner-contact .custom-paragraph p {font-size: 12px;width: 88%;line-height: 25px;}
