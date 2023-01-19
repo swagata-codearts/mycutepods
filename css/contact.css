@@ -102,6 +102,11 @@
   height: 100%;
 }
 /* *************** Inner Contact End *************** */
+/* *************** Inner Product Start *************** */
+.col-view-thumbnails .active img {
+  filter: brightness(0) contrast(3);
+}
+/* *************** Inner Product End *************** */
 @media (min-width: 1200) and (max-width: 1300px)  {
   .custom-google-map .map {padding-bottom: 15px;}
 }

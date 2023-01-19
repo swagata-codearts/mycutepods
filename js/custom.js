@@ -67,3 +67,9 @@ jQuery(document).ready(function(){
     });
 });
 
+jQuery(document).ready(function()   {
+    jQuery(".product-listing-main .col-view-thumbnails a").click(function() {
+        jQuery(".product-listing-main .col-view-thumbnails a").removeClass("active")
+        jQuery(this).addClass("active")
+    })
+})
