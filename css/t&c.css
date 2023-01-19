@@ -1,0 +1,49 @@
+/*T&C*/
+.tc {
+    padding: 120px 0;
+}
+.tc-wrap h3 {
+    font-family: var(--ff-primary);
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 34px;
+}
+.tc-wrap .custom-para {
+    font-size: 15px;
+    color: var(--c-text-secondary);
+    line-height: 38px;
+}
+.tc-wrap .heading-margin-top {
+    margin-top: 52px;
+}
+.tc-wrap .custom-para.alt {
+    margin-top: 18px;
+}
+.tc-wrap .custom-tc-list li span {
+    background-color: var(--c-secondary);
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    color: var(--c-white-900);
+    margin-right: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+.tc-wrap .custom-tc-list {
+    padding-top: 15px;
+}
+.tc-wrap .custom-tc-list li {
+    padding: 5px 0px;
+}
+.tc-wrap .custom-tc-list li {
+    padding: 0px 0px 20px;
+    font-family: var(--ff-secondary);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--c-text-secondary);
+}
+.tc-wrap .custom-tc-list li:last-child {
+    padding: 0px 0px 0px;
+}
