@@ -745,7 +745,9 @@ h1, h2, h3, h4, h5, h6 {
   .custom-header .navbar-expand-lg .navbar-nav .nav-link {font-size: 14px;}
   .custom-header .megamenu-section .font-weight-bold.text-uppercase {font-size: 16px;padding: 0 0 5px 0;}
   .custom-header .navbar-expand-lg .navbar-nav .dropdown-menu .megamenu-wrap .nav-link {padding: 16px 0;font-size: 13px !important;}
-
+  .custom-inner-banner {padding: 110px 0 120px !important;}
+  .custom-inner-banner .inner-banner-heading h1 {font-size: 68px !important;line-height: 56px !important;}
+  .custom-inner-banner .inner-banner-heading {padding-bottom: 10px !important;}
 }
 
 @media (min-width: 1300px) and (max-width: 1400px){
@@ -774,6 +776,10 @@ h1, h2, h3, h4, h5, h6 {
   .custom-header .navbar-expand-lg .navbar-nav .nav-link {font-size: 14px;}
   .custom-header .megamenu-section .font-weight-bold.text-uppercase {font-size: 16px;padding: 0 0 5px 0;}
   .custom-header .navbar-expand-lg .navbar-nav .dropdown-menu .megamenu-wrap .nav-link {padding: 16px 0;font-size: 13px !important;}
+
+  .custom-inner-banner {padding: 110px 0 120px !important;}
+  .custom-inner-banner .inner-banner-heading h1 {font-size: 68px !important;line-height: 56px !important;}
+  .custom-inner-banner .inner-banner-heading {padding-bottom: 10px !important;}
 }
 
 @media (min-width: 1200px) and (max-width: 1300px){
@@ -816,6 +822,10 @@ h1, h2, h3, h4, h5, h6 {
   .custom-header .megamenu-section .font-weight-bold.text-uppercase {font-size: 14px;padding: 0 0 5px 0;}
   .custom-header .navbar-expand-lg .navbar-nav .dropdown-menu .megamenu-wrap .nav-link {padding: 14px 0;font-size: 12px !important;}
   .custom-header .add-padding {padding: 20px 0 35px !important;}
+
+  .custom-inner-banner {padding: 100px 0 !important;}
+  .custom-inner-banner .inner-banner-heading h1 {font-size: 68px !important;line-height: 56px !important;}
+  .custom-inner-banner .inner-banner-heading {padding-bottom: 10px !important;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -867,6 +877,10 @@ h1, h2, h3, h4, h5, h6 {
   .custom-header .megamenu-section .font-weight-bold.text-uppercase {font-size: 14px;padding: 0 0 5px 0;}
   .custom-header .navbar-expand-lg .navbar-nav .dropdown-menu .megamenu-wrap .nav-link {padding: 14px 0;font-size: 12px !important;}
   .custom-header .add-padding {padding: 20px 0 35px !important;}
+
+  .custom-inner-banner {padding: 100px 0 !important;}
+  .custom-inner-banner .inner-banner-heading h1 {font-size: 60px !important;line-height: 50px !important;}
+  .custom-inner-banner .inner-banner-heading {padding-bottom: 10px !important;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -917,6 +931,10 @@ h1, h2, h3, h4, h5, h6 {
   .custom-header .megamenu-section .font-weight-bold.text-uppercase {font-size: 14px;padding: 0 0 5px 0;}
   .custom-header .navbar-expand-lg .navbar-nav .dropdown-menu .megamenu-wrap .nav-link {padding: 14px 0;font-size: 12px !important;}
   .custom-header .add-padding {padding: 20px 0 35px !important;}
+  .custom-inner-banner {padding: 90px 0 !important;}
+  .custom-inner-banner .inner-banner-heading h1 {font-size: 55px !important;line-height: 42px !important;}
+  .custom-inner-banner .inner-banner-heading {padding-bottom: 10px !important;}
+  .custom-inner-banner nav .breadcrumb {font-size: 15px !important;line-height: 28px !important;}
 }
 
 @media only screen and (max-width: 991.98px) {  
@@ -965,7 +983,10 @@ h1, h2, h3, h4, h5, h6 {
   .brand .brand-box {padding: 65px;}
   .custom-our-category.custom-pad {margin-bottom: 70px;}
   .profile-actions.actions-2.navbar-nav {display: flex;flex-direction: row;margin-left: 30%;display: none;}
-
+  .custom-inner-banner {padding: 80px 0 70px !important;margin-top: 115px !important;}
+  .custom-inner-banner .inner-banner-heading h1 {font-size: 45px !important;line-height: 35px !important;}
+  .custom-inner-banner .inner-banner-heading {padding-bottom: 8px !important;}
+  .custom-inner-banner nav .breadcrumb {font-size: 15px !important;line-height: 28px !important;}
 }
 
 @media (max-width: 767.98px){
@@ -986,6 +1007,9 @@ h1, h2, h3, h4, h5, h6 {
   .custom-about.custom-pad::before {top: -52.9%;}
   .custom-about.custom-pad {padding: 50px 0;}
   .product-category-content {bottom: 30px;left: 25px;}
+  .custom-inner-banner {padding: 60px 0 50px !important;}
+  .custom-inner-banner .inner-banner-heading h1 {font-size: 35px !important;line-height: 30px !important;}
+  .custom-inner-banner nav .breadcrumb {font-size: 13px !important;line-height: 24px !important;}
 }
 
 @media (max-width: 575.98px){
@@ -1004,6 +1028,10 @@ h1, h2, h3, h4, h5, h6 {
   .profile-actions.actions-2.navbar-nav {display: none;}
   .custom-about.custom-pad::before {top: -52.7%;}
   .custom-about.custom-pad {padding: 40px 0;}
+  .custom-inner-banner {padding: 60px 0 40px !important;background-position: 62% 0% !important;}
+  .custom-inner-banner .inner-banner-heading h1 {font-size: 26px !important;line-height: 25px !important;}
+  .custom-inner-banner nav .breadcrumb {font-size: 12px !important;line-height: 22px !important;}
+  .inner-banner-pattern {bottom: -5px !important;}
 }
 @media (max-width: 479.98px) {
   .custom-banner .banner-bottom-pattern {bottom: -44px;}
