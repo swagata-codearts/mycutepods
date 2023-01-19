@@ -254,7 +254,7 @@ position: absolute;
 content: '';
 background-image: url(../images/arrow.webp);
 width: 100%;
-top: 21px;
+top: 17px;
 left: 0;
 right: 0;
 margin: 0 auto;
@@ -266,6 +266,7 @@ height: 16px;
 .footer-content.footer-contact-form .custom-button.form-btn {
 position: relative;
 width: 9%;
+height: 49px;
 margin-left: 26px;
 border-radius: 0;
 background-color: var(--c-secondary);
@@ -276,8 +277,9 @@ background-color: var(--c-primary);
 cursor: pointer;
 }
 .footer-content.footer-contact-form .footer-email-form .form-control {
-width: 56%;
+width: 54%;
 border-radius: 0;
+height: 49px;
 }
 
 /*Footer*/
@@ -733,7 +735,8 @@ mask-image: url(https://raw.githubusercontent.com/swagata-codearts/mycutepods/ma
 .testimonial .testi-box h5 {margin-top: 14px;}
 .testimonial .testi-box h6 {margin-top: 5px;}
 .footer-content.footer-contact-form .custom-para {padding: 0 60px;}
-.footer-content.footer-contact-form .custom-button.form-btn {width: 12%;margin-left: 16px;}
+.footer-content.footer-contact-form .custom-button.form-btn {width: 9%;margin-left: 16px;}
+.footer-content.footer-contact-form .custom-button.form-btn::after {top: 17px !important;}
 .footer-wrap .footer-content .custom-para {padding-right: 20px;}
 .footer-content img {height: 40px;}
 .brand .brand-box {padding: 65px 30px;margin-bottom: 15px;}
@@ -832,7 +835,7 @@ mask-image: url(https://raw.githubusercontent.com/swagata-codearts/mycutepods/ma
 .category-carousel .owl-nav .owl-prev, .category-carousel .owl-nav .owl-next {width: 30px;height: 30px;font-size: 18px !important;}
 .custom-our-category.custom-pad {margin-bottom: 100px;}
 .copyright-content {margin-top: 40px;}
-.footer-content.footer-contact-form .custom-button.form-btn::after {top: 14px !important;}
+.footer-content.footer-contact-form .custom-button.form-btn::after {top: 16px !important;}
 .about-right::after {top: -114px;right: 120px;}
 /*About Us*/
 .about-inner-service-box.second {margin-top: 25px;}
@@ -850,7 +853,6 @@ mask-image: url(https://raw.githubusercontent.com/swagata-codearts/mycutepods/ma
 .footer-wrap .footer-content .custom-para {padding-right: 0px;}
 .footer-content.footer-contact-form .footer-email-form .form-control {width: 80%;}
 .footer-content.footer-contact-form .custom-button.form-btn {width: 17%;margin-left: 6px;}
-.footer-content.footer-contact-form .custom-button.form-btn::after {top: 15px !important;}
 .choose-products.products-section.custom-pad {padding: 40px 0 40px;}
 .choose-products.custom-pad {padding: 40px 0px 0;}
 .brand.custom-pad {padding-bottom: 40px;padding-top: 40px;}

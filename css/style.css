@@ -684,6 +684,25 @@ h1, h2, h3, h4, h5, h6 {
 /* *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* HOMEPAGE END *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* */
 
 /* *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* RESPONSIVE START *=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=* */
+@media (min-width: 2200px) and (max-width: 2520px){
+  .custom-banner_content {gap: 0 320px !important;}
+  .custom-banner .banner-bottom-pattern {height: 69px !important;}
+  .reviews-home::before {top: -62% !important;}
+  .footer-wrap {padding: 280px 0 0 !important;}
+}
+@media (min-width: 2000px) and (max-width: 2200px){
+  .custom-banner_content {gap: 0 240px !important;}
+  .custom-banner .banner-bottom-pattern {height: 65px !important;}
+  .reviews-home::before {top: -61% !important;}
+  .footer-wrap {padding: 200px 0 0 !important;}
+}
+@media (min-width: 1920px) and (max-width: 2000px){
+  .custom-banner_content {gap: 0 120px !important;}
+  .custom-banner .banner-bottom-pattern {bottom: -1px;}
+  .custom-banner .banner-bottom-pattern {height: 62px !important;}
+  .reviews-home::before {top: -60% !important;}
+  .footer-wrap {padding: 160px 0 0 !important;}
+}
 @media (min-width: 1900px) and (max-width: 1920px){
   .custom-banner .banner-bottom-pattern {bottom: -1px;}
 }
@@ -945,7 +964,6 @@ h1, h2, h3, h4, h5, h6 {
   .custom-about.custom-pad {padding: 60px 0 0px 0;}
   .brand .brand-box {padding: 65px;}
   .custom-our-category.custom-pad {margin-bottom: 70px;}
-  .footer-content.footer-contact-form .custom-button.form-btn::after {top: 18px !important;}
   .profile-actions.actions-2.navbar-nav {display: flex;flex-direction: row;margin-left: 30%;display: none;}
 
 }
