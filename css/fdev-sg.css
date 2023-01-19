@@ -553,7 +553,7 @@ mask-image: url(https://raw.githubusercontent.com/swagata-codearts/mycutepods/ma
 .testimonial .testi-box {padding: 50px 20px;}
 .testimonial-carousel .owl-next {top: 260px;left: -57px;}
 .testimonial-carousel .owl-prev {bottom: 260px;left: -57px;}
-.choose-products.products-section.custom-pad {padding: 100px 0 120px;}
+.choose-products.products-section.custom-pad {padding: 100px 0 100px;}
 .choose-products.custom-pad {padding: 100px 0px 0;}
 .brand.custom-pad {padding-bottom: 100px;padding-top: 100px;}
 .reviews-home::before {top: -58%;}
@@ -892,7 +892,7 @@ mask-image: url(https://raw.githubusercontent.com/swagata-codearts/mycutepods/ma
 .about-inner-service-box.first::after {left: 205px;width: 18%;}
 .about-inner-service-box.second::after {left: 205px;width: 18%;}
 .about-inner-service-box.third::after {left: 205px;width: 18%;}
-.about-button-wrap {bottom: 45px;}
+.about-button-wrap {bottom: 50px;}
 }
 @media (max-width: 389.98px){
 /*About Us*/
