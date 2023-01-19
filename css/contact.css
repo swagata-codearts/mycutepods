@@ -149,7 +149,7 @@
 .product-listing-sidebar .content .title h4::before {
   position: absolute;
   content: '';
-  width: 282px;
+  width: 90%;
   height: 1px;
   background-color: #d6d6d6;
   bottom: 0;
@@ -210,6 +210,9 @@
   background-color: var(--c-secondary);
   border-color: var(--c-secondary);
 }
+.product-listing-main .row .px-2 {
+  padding: 0 11px !important;
+}
 /* *************** Inner Product End *************** */
 @media (min-width: 1200) and (max-width: 1300px)  {
   .custom-google-map .map {padding-bottom: 15px;}
@@ -219,12 +222,14 @@
   .custom-inner-banner .inner-banner-heading h1 {font-size: 60px;line-height: 46px;}
   .custom-inner-banner {padding: 114px 0 140px;}
   .inner-contact .custom-paragraph p {width: 65%;}
+  .custom-product-listing.choose-products .choose-products-content-box-text {padding: 25px 0px 30px;}
 }
 @media (min-width: 992px) and (max-width: 1024px) {
   .custom-google-map .map {padding-bottom: 5px;}
   .custom-inner-banner .inner-banner-heading h1 {font-size: 58px;line-height: 42px;}
   .custom-inner-banner {padding: 114px 0 140px;}
   .inner-contact .custom-paragraph p {width: 65%;}
+  .custom-product-listing.choose-products .choose-products-content-box-text {padding: 25px 0px 30px;}
 }
 @media only screen and (max-width: 991.98px) {
   /* inner banner */
