@@ -1,27 +1,4 @@
 /* *************** <add section name> Section Start *************** */
-/*header*/
-.custom-header .navbar-expand-lg .navbar-nav .dropdown-menu::after {
-position: absolute;
-content: '';
-background-color: var(--c-white-900);
-width: 5000px;
-height: 100.5%;
-top: -1px;
-left: -600px;
-z-index: -1;
-}
-.custom-header .megamenu .dropdown-menu .shadow-sm {
-box-shadow: none !important;
-}
-.custom-header .navbar-expand-lg .navbar-nav .dropdown-menu::before {
-position: absolute;
-content: '';
-background-color:#d3d3d3;
-width: 100%;
-height: 1px;
-left: 0px;
-top: 0;
-}
 /*Products*/
 .choose-products.products-section.custom-pad .choose-products-content-box {
 height: 525px;
@@ -561,10 +538,8 @@ mask-image: url(https://raw.githubusercontent.com/swagata-codearts/mycutepods/ma
 .reviews-home::before {top: -58%;}
 .custom-header .header-nav {padding: 20px 0;}
 .custom-header .navbar-expand-lg .navbar-nav .dropdown-menu {top: 72px;}
-/*About Us*/
 .about-inner.our-mission-content .custom-para {padding-right: 10px;}
 .about-inner-service-wrap {padding: 0 0px;}
-
 .testimonials .testimonial-wrap:not(:last-child) {margin-bottom: 120px;}
 .testimonial-wrap .short-title h5 {font-size: 40px;width: 70%;}
 .testimonial-wrap .text p {font-size: 17px;line-height: 32px;}
@@ -589,7 +564,6 @@ mask-image: url(https://raw.githubusercontent.com/swagata-codearts/mycutepods/ma
 .custom-header .header-nav {padding: 15px 0;}
 .custom-header .navbar-expand-lg .navbar-nav .dropdown-menu {top: 68px;}
 .footer-content.footer-contact-form .custom-para {padding: 0 110px;}
-/*About Us*/
 .about-inner.our-mission-content .custom-para {padding-right: 10px;}
 .about-inner-service-wrap {padding: 0 0px;}
 .about-inner-service-content h4 {font-size: 23px;}
@@ -628,13 +602,11 @@ mask-image: url(https://raw.githubusercontent.com/swagata-codearts/mycutepods/ma
 .review-img img {width: 100%;object-fit: cover;}
 .custom-header .header-nav {padding: 10px 0 !important;}
 .custom-header .navbar-expand-lg .navbar-nav .dropdown-menu {top: 62px;}
-/*About Us*/
 .about-inner.our-mission-content .custom-para {padding-right: 10px;margin-top: 10px;}
 .about-inner-service-wrap {padding: 0 0px;}
 .about-inner-service-content h4 {font-size: 23px;}
 .about-inner.our-mission-content {padding-left: 55px;}
 .about-inner.our-mission-content-heading {margin-top: 30px;}
-
 .testimonials .testimonial-wrap:not(:last-child) {margin-bottom: 100px;}
 .testimonial-wrap .short-title h5 {font-size: 36px;width: 70%;line-height: 54px;}
 .testimonial-wrap .text p {font-size: 16px;line-height: 30px;}
@@ -674,7 +646,6 @@ mask-image: url(https://raw.githubusercontent.com/swagata-codearts/mycutepods/ma
 .review-img img {width: 100%;object-fit: cover;}
 .custom-header .header-nav {padding: 10px 0;}
 .custom-header .navbar-expand-lg .navbar-nav .dropdown-menu {top: 59px;}
-/*About Us*/
 .about-inner.our-mission-content .custom-para {padding-right: 10px;margin-top: 10px;}
 .about-inner-service-wrap {padding: 0 0px;}
 .about-inner-service-content h4 {font-size: 20px;}
@@ -684,7 +655,6 @@ mask-image: url(https://raw.githubusercontent.com/swagata-codearts/mycutepods/ma
 .about-inner-service-box.second::after {left: 155px;}
 .about-inner-service-box.third::after {left: 155px;}
 .about-inner.our-mission-content-heading {margin-top: 30px;}
-
 .testimonials .testimonial-wrap:not(:last-child) {margin-bottom: 80px;}
 .testimonial-wrap .short-title h5 {font-size: 34px;width: 70%;line-height: 48px;}
 .testimonial-wrap .text p {font-size: 14px;line-height: 28px;}
@@ -728,7 +698,6 @@ mask-image: url(https://raw.githubusercontent.com/swagata-codearts/mycutepods/ma
 .review-img img {width: 100%;object-fit: cover;}
 .custom-header .header-nav {padding: 10px 0;}
 .custom-header .navbar-expand-lg .navbar-nav .dropdown-menu {top: 59px;}
-/*About Us*/
 .about-inner.our-mission-content .custom-para {padding-right: 10px;margin-top: 10px;}
 .about-inner-service-wrap {padding: 0 0px;}
 .about-inner-service-content h4 {font-size: 20px;}
@@ -822,8 +791,6 @@ mask-image: url(https://raw.githubusercontent.com/swagata-codearts/mycutepods/ma
 .custom-header .navbar-nav .dropdown-menu {position: static !important;}
 .custom-header .megamenu-section .font-weight-bold.text-uppercase {border-bottom: 1px solid var(--c-text-tertiary);}
 .custom-header .navbar-expand-lg .navbar-nav .dropdown-menu::before {display: none;}
-
-/*About Us*/
 .about-inner.our-mission-content .custom-para {padding-right: 10px;margin-top: 10px;}
 .about-inner-service-wrap {padding: 0 0px;}
 .about-inner-service-content h4 {font-size: 20px;}
@@ -882,7 +849,6 @@ mask-image: url(https://raw.githubusercontent.com/swagata-codearts/mycutepods/ma
 .custom-our-category.custom-pad {margin-bottom: 100px;}
 .copyright-content {margin-top: 40px;}
 .footer-content.footer-contact-form .custom-button.form-btn::after {top: 16px !important;}
-/*About Us*/
 .about-inner-service-box.second {margin-top: 25px;}
 .about-inner-service-box.first::after {left: 295px;width: 13%;}
 .about-inner-service-box.second::after {left: 285px;width: 13%;}
@@ -930,7 +896,6 @@ mask-image: url(https://raw.githubusercontent.com/swagata-codearts/mycutepods/ma
 .about-right .about-right-carousel .about-right-image .target {width: 90%;}
 .custom-header .profile-actions .nav-item .nav-link span {font-size: 26px;}
 .about-right-carousel .owl-nav .owl-next {top: 17px;}
-/*About Us*/
 .about-inner-service-box.second {margin-top: 25px;}
 .about-inner-service-box.first::after {left: 235px;width: 18%;}
 .about-inner-service-box.second::after {left: 235px;width: 18%;}
