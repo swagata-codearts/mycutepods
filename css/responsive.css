@@ -318,7 +318,7 @@
     .brand .brand-box {padding: 65px;}
     .custom-our-category.custom-pad {margin-bottom: 70px;}
     .profile-actions.actions-2.navbar-nav {display: flex;flex-direction: row;margin-left: 30%;display: none;}
-    .custom-inner-banner {padding: 80px 0 70px !important;margin-top: 115px !important;}
+    .custom-inner-banner {padding: 80px 0 70px !important;margin-top: 100px !important;}
     .custom-inner-banner .inner-banner-heading h1 {font-size: 45px !important;line-height: 35px !important;}
     .custom-inner-banner .inner-banner-heading {padding-bottom: 8px !important;}
     .custom-inner-banner nav .breadcrumb {font-size: 15px !important;line-height: 28px !important;}
@@ -391,6 +391,7 @@
     .custom-banner_content .content .heading {padding: 5px 20px 5px;font-size: 30px;}
     .custom-our-category.custom-pad {margin-bottom: 40px;}
     .about-right::after {top: -94px;right: 100px;}
+    .custom-inner-banner {background-position: 62% 0;}
   }
   @media (max-width: 479.98px) {
     .custom-banner .banner-bottom-pattern {bottom: -44px;}

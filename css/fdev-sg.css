@@ -840,7 +840,7 @@ mask-image: url(https://raw.githubusercontent.com/swagata-codearts/mycutepods/ma
 .about-inner-service-box.third {margin-top: 25px;}
 .about-inner-service-wrap .container {padding: 0 0;}
 .testimonials .testimonial-wrap:not(:last-child) {margin-bottom: 80px;flex-direction: column;}
-.testimonial-wrap .short-title h5 {font-size: 34px;width: 70%;line-height: 48px;padding-bottom: 20px;}
+.testimonial-wrap .short-title h5 {font-size: 24px;width: 40%;line-height: 38px;padding-bottom: 20px;}
 .testimonial-wrap .text p {font-size: 14px;line-height: 28px;}
 .inner-testimonial .custom-heading {padding-bottom:55px;width: 28%;}
 .testimonials > :nth-child(2n) .content {left: 120px;}
