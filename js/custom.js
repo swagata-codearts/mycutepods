@@ -104,6 +104,7 @@ $(document).ready(function() {
         .addClass("current");
     })
       .owlCarousel({
+      
       items: 4,
       dots: true,
       nav: true,
@@ -114,7 +115,18 @@ $(document).ready(function() {
       smartSpeed: 200,
       slideSpeed: 500,
       slideBy: 4,
-      responsiveRefreshRate: 100
+      responsiveRefreshRate: 100,
+      responsive:{
+            0:{
+                margin: 10
+            },
+            768:{
+                margin: 15
+            },
+            1200:{
+                margin: 19
+            }
+        }
     })
       .on("changed.owl.carousel", syncPosition2);
   
@@ -194,3 +206,34 @@ const executeCodes = () => {
 };
 
 window.addEventListener('load', executeCodes);
+
+jQuery(function() {
+	jQuery('[data-decrease]').click(decrease);
+	jQuery('[data-increase]').click(increase);
+	jQuery('[data-value]').change(valueChange);
+});
+
+function decrease() {
+	var value = jQuery(this).parent().find('[data-value]').val();
+	if(value > 1) {
+		value--;
+		jQuery(this).parent().find('[data-value]').val(value);
+	}
+}
+
+function increase() {
+	var value = jQuery(this).parent().find('[data-value]').val();
+	if(value < 100) {
+		value++;
+		jQuery(this).parent().find('[data-value]').val(value);
+	}
+}
+
+function valueChange() {
+	var value = jQuery(this).val();
+	if(value == undefined || isNaN(value) == true || value <= 0) {
+		jQuery(this).val(1);
+	} else if(value >= 101) {
+		jQuery(this).val(100);
+	}
+}
