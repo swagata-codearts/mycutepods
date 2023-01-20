@@ -74,6 +74,25 @@ jQuery(document).ready(function()   {
     })
 })
 
+jQuery(document).ready(function() {
+  jQuery(".nav-item .nav-link").click(function() {
+  
+    jQuery(this).siblings(".dropdown-menu").toggleClass("show")
+  })
+  jQuery(".megamenu-section h6").click(function() {
+    // alert()
+    jQuery(".megamenu-section .list-unstyled").hide()
+    jQuery(this).siblings(".list-unstyled").show()
+  })
+  // jQuery(window).resize(function() {
+  //   var width = jQuery(window).width();
+  //   if (width > 991.98){
+  //     jQuery(".megamenu-section .list-unstyled").css("display", "block !important")
+
+  //   } 
+  // })
+})
+
 $(document).ready(function() {
     var bigimage = $("#big");
     var thumbs = $("#thumbs");
@@ -237,3 +256,4 @@ function valueChange() {
 		jQuery(this).val(100);
 	}
 }
+
