@@ -213,29 +213,32 @@
 .product-listing-main .row .px-2 {
   padding: 0 11px !important;
 }
+.inner-product-details .owl-carousel .owl-nav {
+  display: none;
+}
 /* *************** Inner Product End *************** */
 @media (min-width: 1200) and (max-width: 1300px)  {
   .custom-google-map .map {padding-bottom: 15px;}
 }
 @media (min-width: 1024px) and (max-width: 1200px) {
   .custom-google-map .map {padding-bottom: 10px;}
-  .custom-inner-banner .inner-banner-heading h1 {font-size: 60px;line-height: 46px;}
-  .custom-inner-banner {padding: 114px 0 140px;}
+  /*.custom-inner-banner .inner-banner-heading h1 {font-size: 60px;line-height: 46px;}
+  .custom-inner-banner {padding: 114px 0 140px;}*/
   .inner-contact .custom-paragraph p {width: 65%;}
   .custom-product-listing.choose-products .choose-products-content-box-text {padding: 25px 0px 30px;}
 }
 @media (min-width: 992px) and (max-width: 1024px) {
   .custom-google-map .map {padding-bottom: 5px;}
-  .custom-inner-banner .inner-banner-heading h1 {font-size: 58px;line-height: 42px;}
-  .custom-inner-banner {padding: 114px 0 140px;}
+  /*.custom-inner-banner .inner-banner-heading h1 {font-size: 58px;line-height: 42px;}
+  .custom-inner-banner {padding: 114px 0 140px;}*/
   .inner-contact .custom-paragraph p {width: 65%;}
   .custom-product-listing.choose-products .choose-products-content-box-text {padding: 25px 0px 30px;}
 }
 @media only screen and (max-width: 991.98px) {
   /* inner banner */
-  .custom-inner-banner {background-position: 100%;padding: 123px 0 169px;}
+  /*.custom-inner-banner {background-position: 100%;padding: 123px 0 169px;}
   .custom-inner-banner .inner-banner-heading {padding-bottom: 5px;}
-  .custom-inner-banner .inner-banner-heading h1 {font-size: 58px;letter-spacing: 5px;}
+  .custom-inner-banner .inner-banner-heading h1 {font-size: 58px;letter-spacing: 5px;}*/
   .inner-contact .custom-paragraph {padding-bottom: 45px;}
   .inner-contact .custom-paragraph p {font-size: 14px;width: 88%;line-height: 28px;padding-top: 14px;}
   .contact-card {min-height: 238px;margin: 0;}
@@ -249,32 +252,31 @@
   .form-control-wrapper textarea {height: 165px !important;padding-top: 15px;}
   .contact-form-container .custom-button {font-size: 16px;height: 55px;}
   .custom-google-map .map {padding-bottom: 0px;height: 405px;}
-
   .product-listing-sort {padding-bottom: 30px;}
   .custom-product-listing.choose-products .choose-products-content .choose-products-content-box-img a img {height: 350px;}
 }
 
 @media (max-width: 767.98px) {
   /* inner banner */
-  .custom-inner-banner {background-position: 97%;padding: 113px 0 159px;}
-  .custom-inner-banner .inner-banner-heading h1 {font-size: 55px;letter-spacing: 5px;}
+  /*.custom-inner-banner {background-position: 97%;padding: 113px 0 159px;}
+  .custom-inner-banner .inner-banner-heading h1 {font-size: 55px;letter-spacing: 5px;}*/
   .inner-contact .custom-paragraph p {font-size: 12px;width: 88%;line-height: 25px;}
   .contact-card {min-height: 228px;}
   .form-control-wrapper {padding-bottom: 12px;}
   .form-control-wrapper input, .form-control-wrapper textarea {font-size: 11px;}
   .custom-google-map .map {height: 365px;}
-  .inner-banner-pattern {bottom: -1px;}
-
+  /*.inner-banner-pattern {bottom: -1px;}*/
   .custom-product-listing.choose-products .choose-products-content .choose-products-content-box-img a img {height: 254px;}
   .custom-product-listing.choose-products .choose-products-content .choose-products-content-box-text ul {justify-content: start;}
   .custom-product-listing.choose-products .choose-products-content-box-text {text-align: left;}
+
 }
 
 @media (max-width: 575.98px){
-  .custom-inner-banner {background-position: 100%;padding: 115px 0 75px;}
+  /*.custom-inner-banner {background-position: 100%;padding: 115px 0 75px;}
   .custom-inner-banner .inner-banner-heading h1 {font-size: 35px;letter-spacing: 4px;line-height: 32px;}
   .custom-inner-banner nav .breadcrumb {font-size: 13px;line-height: 24px;}
-  .inner-banner-pattern {bottom: -5px;}
+  .inner-banner-pattern {bottom: -5px;}*/
   .contact-card a {width: 95%;}
   .inner-contact .custom-paragraph p {width: 100%;line-height: 20px;}
   .inner-contact .custom-paragraph {padding-bottom: 30px;}
